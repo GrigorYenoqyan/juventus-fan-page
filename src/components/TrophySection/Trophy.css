@@ -1,0 +1,18 @@
+.trophy {
+    border:1px green;
+    float: left;
+    margin: 20px;
+    width: 20%;
+    text-align: center;
+}
+.image-wrapper {
+    /* overflow: hidden; */
+}
+.image-wrapper > img {
+    transition: all 0.1s;
+}
+.image-wrapper > img:hover {
+    transform: scale(1.1, 1.1);
+    transform-origin:  center;
+
+}
