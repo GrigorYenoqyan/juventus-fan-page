@@ -1,9 +1,9 @@
 import React from "react";
-import Title from "../Title/Title";
-import ArticleName from "../Title/ArticleName";
 import PropTypes from "prop-types";
-
 import "./Trophy.css";
+import ArticleName from "../../Titles/ArticleName";
+import Title from "../../Titles/Title";
+
 
 const Trophy = ({ data }) => {
     return (

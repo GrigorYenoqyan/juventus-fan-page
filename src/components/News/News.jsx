@@ -1,12 +1,11 @@
 import React from 'react';
-import ContainerWhite from "../Container/ContainerWhite";
-import ContainerBlack from "../Container/ContainerBlack";
-import Title from "../Text/Title";
 import "./News.css";
 import { news } from "../../data.js";
-import ArticleName from '../Text/ArticleName';
-import Description from '../Text/Description';
-
+import ContainerWhite from '../Container/ContainerWhite';
+import Title from '../Titles/Title';
+import ArticleName from '../Titles/ArticleName';
+import Description from '../Description';
+import ContainerBlack from '../Container/ContainerBlack';
 
 const News = () => {
     return (

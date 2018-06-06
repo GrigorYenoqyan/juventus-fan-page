@@ -1,14 +1,5 @@
-.container-white {
+.container-black, .container-white {
     width: 100%;
-    color: #9a9a9a;
-    background: #fff;
-    padding: 40px 0;
-}
-
-.container-black {
-    width: 100%;
-    color: #fff;
-    background: #000;
     padding: 40px 0;
 }
 

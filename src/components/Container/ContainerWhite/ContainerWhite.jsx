@@ -1,11 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "./Container.css";
+import "./ContainerWhite.css";
+import "../Container.css";
 
-const ContainerBlack = ({ children }) => {
+const ContainerWhite = ({ children }) => {
     return (
-        <div className="container-black">
+        <div className="container-white">
             <div className="container-center">
                 {children}
             </div>
@@ -13,8 +14,8 @@ const ContainerBlack = ({ children }) => {
     )
 }
 
-ContainerBlack.propTypes = {
+ContainerWhite.propTypes = {
     children: PropTypes.node.isRequired,
 }
 
-export default ContainerBlack;
+export default ContainerWhite;

@@ -1,0 +1,12 @@
+.white-article-name {
+    color:white;
+}
+
+.black-article-name {
+    color:black;
+}
+
+.white-article-name, .black-article-name {
+    font-size: 1.5rem;
+    font-weight: 100;
+}

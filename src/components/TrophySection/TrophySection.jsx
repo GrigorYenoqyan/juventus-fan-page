@@ -1,9 +1,8 @@
 import React from "react";
-import ContainerWhite from "../Container/ContainerWhite";
-import Subtitle from "../Title/Subtitle";
-import Trophy from "./Trophy";
-
 import { trophies } from "../../data.js";
+import ContainerWhite from "../Container/ContainerWhite/index.js";
+import Subtitle from "../Titles/Subtitle";
+import Trophy from "./Trophy/index.js";
 
 const TrophySection = () => {
     return (
