@@ -1,0 +1,40 @@
+.thoughts-image {
+    max-width: 100%;
+    height: auto;
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+
+.text {
+    font-size: 1.5rem;
+    color: rgb(31, 28, 28);
+    text-align: center;
+    opacity: 1;
+    transition: opacity .50s;
+}
+
+.author {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(31, 28, 28);
+    text-align: center;
+    opacity: 1;
+    transition: opacity .50s;
+}
+
+.text-hidden {
+    font-size: 1.5rem;
+    color: rgb(31, 28, 28);
+    text-align: center;
+    opacity: 0;
+    transition: opacity .50s;
+}
+
+.author-hidden {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(31, 28, 28);
+    text-align: center;
+    opacity: 0;
+    transition: opacity .50s;
+}

@@ -1,0 +1,30 @@
+.social_pages_ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.social_pages_list_items {
+   padding: 1%;
+   font-size: 1.1rem;
+   font-family: italic;
+}
+
+.social_pages_ahrefs {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: italic;
+    text-align: center;
+}
+
+.TitleFoot {
+    text-align: center;
+} 
+
+.footer_text {
+    text-align: center;
+}

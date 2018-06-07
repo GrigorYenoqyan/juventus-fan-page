@@ -1,11 +1,12 @@
 import React from 'react';
-import ContainerWhite from "../Container/ContainerWhite";
-import ContainerBlack from "../Container/ContainerBlack";
-import Title from "../Text/Title";
+import ContainerWhite from "../Containers/ContainerWhite";
+import ContainerBlack from "../Containers/ContainerBlack";
+import Title from "../Titles/Title";
 import "./News.css";
 import { news } from "../../data.js";
-import ArticleName from '../Text/ArticleName';
-import Description from '../Text/Description';
+import ArticleName from '../Titles/ArticleName';
+
+import Description from "../Description";
 
 
 const News = () => {
@@ -18,6 +19,7 @@ const News = () => {
                 news.map((article, i) => {
                     let cond = i % 2;
                     let color = cond ? "black" : "white";
+                    console.log(color)
                     let reverse = cond ? "news-content-wrapper-reverse" : "";
                     let content = (
                         <div>
@@ -33,7 +35,7 @@ const News = () => {
                                     />
                                 </div>
                                 <div className="desc-wrapper">
-                                    <Description color={color}>{article.content}</Description>
+                                    <Description  color={color}>{article.content}></Description>
                                 </div>
                             </div>
                         </div>

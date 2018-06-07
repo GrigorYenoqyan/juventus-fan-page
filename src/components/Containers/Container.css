@@ -1,0 +1,9 @@
+.container-black, .container-white {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.container-center {
+    width: 70%;
+    margin: 0 auto;
+}

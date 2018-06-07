@@ -1,17 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "./Title.css";
+import "./Subtitle.css";
 
-const Description = ({ children, color }) => {
+const Subtitle = ({ children, color }) => {
     return (
-        <p className={`${color}-description`}>{children}</p>
+        <h3 className={`${color}-subtitle`}>{children}</h3>
     )
 }
 
-Description.propTypes = {
+Subtitle.propTypes = {
     color: PropTypes.oneOf(["white", "black"]).isRequired,
     children: PropTypes.node.isRequired,
 }
 
-export default Description;
+export default Subtitle;

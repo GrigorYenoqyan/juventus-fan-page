@@ -1,6 +1,6 @@
 import React from "react";
-import Title from "../Title/Title";
-import ArticleName from "../Title/ArticleName";
+import Title from "../../Titles/Title";
+import ArticleName from "../../Titles/ArticleName";
 import PropTypes from "prop-types";
 
 import "./Trophy.css";
@@ -12,7 +12,7 @@ const Trophy = ({ data }) => {
             <div className="image-wrapper">
                 <img src={data.logo} alt="" />
             </div>
-            <ArticleName color="black">{data.name}</ArticleName>
+            <ArticleName color="black">{data.name.toUpperCase()}</ArticleName>
         </div>
     )
 }

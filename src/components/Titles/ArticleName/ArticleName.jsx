@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import "./Title.css";
+import "./ArticleName.css";
 
 const ArticleName = ({ children, color }) => {
     return (

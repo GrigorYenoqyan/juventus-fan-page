@@ -1,14 +1,14 @@
+
 .trophy {
-    border:1px green;
-    float: left;
     margin: 20px;
     width: 20%;
     text-align: center;
 }
 .image-wrapper {
-    /* overflow: hidden; */
+    padding: 14px 0;
 }
 .image-wrapper > img {
+    width: 74%;
     transition: all 0.1s;
 }
 .image-wrapper > img:hover {
