@@ -5,7 +5,7 @@ import Home from '../Home';
 import News from '../News';
 import History from '../History';
 
-const Routs = () => {
+const Routes = () => {
     return (
         <div>
             <Route path='/' component={Header} />
@@ -21,4 +21,4 @@ const Routs = () => {
     )
 }
 
-export default Routs;
+export default Routes;
