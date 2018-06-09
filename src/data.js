@@ -135,3 +135,1469 @@ export const thoughtsData = {
         },
     ]
 }
+
+export const stadium = {
+    images: [
+        "./images/001.jpg",
+        "./images/002.jpg",
+        "./images/003.jpg",
+        "./images/004.jpg",
+    ],
+    text: "Allianz Stadium is the new name of Juventus' home ground after the club signed a naming rights agreement with Allianz and Lagardère Sports, holders of the facility’s naming rights. Starting on 1 July 2017, the stadium will be known as the Allianz Stadium of Turin for six seasons until 30 June 2023, joining the Allianz Family of Stadiums first created in 2005 which features Munich’s Allianz Arena, Sydney’s Allianz Stadium, Allianz Park in London, Nice’s Allianz Riviera, Allianz Parque in Sao Paulo and Allianz Stadion in Vienna. “It’s with great pleasure that we welcome Allianz into our family of partners for a deal as special as this one – the naming of our home,” declared Giorgio Ricci, Co-Chief Revenue Officer and Head of Global Partnerships and Corporate Revenues at Juventus. “The arrival of a global giant in the insurance sector such as Allianz is further testament to how Juventus has established itself as a first-class international institution, whilst enriching a stadium that has played a significant role, since its inauguration in 2011, to creating history with six legendary Scudetto titles celebrated within its walls. “Our ambition and objective is to collaborate with Allianz for the benefit of our supporters, just as with the other partners who have helped transform the stadium into a theatre, ensuring that each match is a show of entertainment and a welcoming place for families.”Thanks to the naming rights agreement, once clearance has been given, Allianz will be able to personalise the facility with signage reading “Allianz Stadium” on the north-east and south-east corners of the facility, as well as the main entrance and signage inside the ground. The Allianz Stadium logo will be visible inside the stadium, on the north, south and east sides of the ground for television broadcasts, as well as on a number of other entry and access points to the stands. Sergio Balbinot, member of the Board of Management of Allianz SE, with responsibility over Italy, West & Southern Europe, the Middle East and Africa, declared: “As Allianz we are particularly satisfied with the partnership around this wonderful stadium, which is one of the established hubs of world soccer. In this structure, unique in Italy, Juventus, a team that can boast an extraordinary series of successes and primary international visibility, plays against all the most important Italian and foreign teams, which are followed, live in the stadium and live on tv, by millions of fans from all over the world. Allianz, on its part, is a major global player in the insurance and asset management business, with over 86 million clients in more than 70 countries and a well-recognized and highly regarded brand. The Allianz Stadium in Turin, therefore, is the natural meeting point between such a structure of excellence and a brand like Allianz”.Opened on 8 September 2011, Juventus Stadium was built according to cutting-edge building standards with an emphasis on energy saving. It was created to guarantee spectators a unique experience thanks to the proximity of the pitch, which is just 7.5m from the front row, and an excellent view from all sides of the stadium. It also features 110,000m2 of support service, commercial and entertainment areas. The facility is fully covered and has a capacity in excess of 41,500 seats, which include 4,000 premium seats, 62 sky boxes and eight business areas. Juventus Museum, 31 bars and restaurants, two children’s play areas, 10 Juventus Stores and 4,000 car parking spaces complete the range of services on offer to the general public. “We are very proud to have reached this agreement between two such prestigious international brands in Juventus and Allianz,” added Lagardère Sports and Entertainment CEO Andrew Georgiou. “As a result, Allianz will be able to move closer to millions of Juve fans around the world.”  Since it opened, more than six million people have enjoyed the Juventus Stadium experience: the club has recorded 99 sell-outs from 114 Serie A matches across six years, with 96.7% of total capacity filled. In all competitions, the stadium has been sold out 130 times in 156 matches, a rate of 83%. This season, every single home match has been a sell-out. The stadium is open seven days a week, which has allowed more than 883,000 visitors to experience the museum and stadium tours – 166,750 last season alone.",
+}
+
+
+
+
+
+export const matchesData = {
+
+  "_links": {
+    "self": {
+      "href": "http://api.football-data.org/v1/teams/109/fixtures"
+    },
+    "team": {
+      "href": "http://api.football-data.org/v1/teams/109"
+    }
+  },
+  "season": "2017",
+  "count": 48,
+  "fixtures": [
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163909"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/104"
+        }
+      },
+      "date": "2017-08-19T16:00:00Z",
+      "status": "FINISHED",
+      "matchday": 1,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "Cagliari Calcio",
+      "result": {
+        "goalsHomeTeam": 3,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 2,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163899"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/107"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2017-08-26T16:00:00Z",
+      "status": "FINISHED",
+      "matchday": 2,
+      "homeTeamName": "Genoa CFC",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 4,
+        "halfTime": {
+          "goalsHomeTeam": 2,
+          "goalsAwayTeam": 2
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163886"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/106"
+        }
+      },
+      "date": "2017-09-09T16:00:00Z",
+      "status": "FINISHED",
+      "matchday": 3,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "AC Chievo Verona",
+      "result": {
+        "goalsHomeTeam": 3,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164780"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/81"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2017-09-12T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 1,
+      "homeTeamName": "FC Barcelona",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 3,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163877"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/471"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2017-09-17T10:30:00Z",
+      "status": "FINISHED",
+      "matchday": 4,
+      "homeTeamName": "US Sassuolo Calcio",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 3,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163866"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/99"
+        }
+      },
+      "date": "2017-09-20T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 5,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "ACF Fiorentina",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163855"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/586"
+        }
+      },
+      "date": "2017-09-23T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 6,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "Torino FC",
+      "result": {
+        "goalsHomeTeam": 4,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 2,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164778"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/654"
+        }
+      },
+      "date": "2017-09-27T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 2,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "Olympiacos F.C.",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163840"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/102"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2017-10-01T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 7,
+      "homeTeamName": "Atalanta BC",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 2,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 2
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163836"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/110"
+        }
+      },
+      "date": "2017-10-14T16:00:00Z",
+      "status": "FINISHED",
+      "matchday": 8,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "SS Lazio",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 2,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164777"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/498"
+        }
+      },
+      "date": "2017-10-18T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 3,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "Sporting CP",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163829"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/115"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2017-10-22T16:00:00Z",
+      "status": "FINISHED",
+      "matchday": 9,
+      "homeTeamName": "Udinese Calcio",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 6,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 2
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163817"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/1107"
+        }
+      },
+      "date": "2017-10-25T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 10,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "SPAL Ferrara",
+      "result": {
+        "goalsHomeTeam": 4,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 2,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163803"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/98"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2017-10-28T16:00:00Z",
+      "status": "FINISHED",
+      "matchday": 11,
+      "homeTeamName": "AC Milan",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 2,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164775"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/498"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2017-10-31T20:45:00Z",
+      "status": "FINISHED",
+      "matchday": 4,
+      "homeTeamName": "Sporting CP",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163797"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/1106"
+        }
+      },
+      "date": "2017-11-05T15:00:00Z",
+      "status": "FINISHED",
+      "matchday": 12,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "Benevento Calcio",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163786"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/584"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2017-11-19T15:00:00Z",
+      "status": "FINISHED",
+      "matchday": 13,
+      "homeTeamName": "UC Sampdoria",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 3,
+        "goalsAwayTeam": 2,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164772"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/81"
+        }
+      },
+      "date": "2017-11-22T20:45:00Z",
+      "status": "FINISHED",
+      "matchday": 5,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "FC Barcelona",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163775"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/472"
+        }
+      },
+      "date": "2017-11-26T20:45:00Z",
+      "status": "FINISHED",
+      "matchday": 14,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "FC Crotone",
+      "result": {
+        "goalsHomeTeam": 3,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163766"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/113"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2017-12-01T20:45:00Z",
+      "status": "FINISHED",
+      "matchday": 15,
+      "homeTeamName": "SSC Napoli",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164771"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/654"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2017-12-05T20:45:00Z",
+      "status": "FINISHED",
+      "matchday": 6,
+      "homeTeamName": "Olympiacos F.C.",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 2,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163753"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/108"
+        }
+      },
+      "date": "2017-12-09T20:45:00Z",
+      "status": "FINISHED",
+      "matchday": 16,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "FC Internazionale Milano",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163742"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/103"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2017-12-17T15:00:00Z",
+      "status": "FINISHED",
+      "matchday": 17,
+      "homeTeamName": "Bologna FC",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 3,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 2
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163733"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/100"
+        }
+      },
+      "date": "2017-12-23T20:45:00Z",
+      "status": "FINISHED",
+      "matchday": 18,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "AS Roma",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163725"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/450"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2017-12-30T19:45:00Z",
+      "status": "FINISHED",
+      "matchday": 19,
+      "homeTeamName": "Hellas Verona FC",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 3,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": {
+        "homeWin": 8.5,
+        "draw": 4.75,
+        "awayWin": 1.33
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163711"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/104"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2018-01-06T19:45:00Z",
+      "status": "FINISHED",
+      "matchday": 20,
+      "homeTeamName": "Cagliari Calcio",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163705"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/107"
+        }
+      },
+      "date": "2018-01-22T19:45:00Z",
+      "status": "FINISHED",
+      "matchday": 21,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "Genoa CFC",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163690"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/106"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2018-01-27T19:45:00Z",
+      "status": "FINISHED",
+      "matchday": 22,
+      "homeTeamName": "AC Chievo Verona",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 2,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163686"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/471"
+        }
+      },
+      "date": "2018-02-04T14:00:00Z",
+      "status": "FINISHED",
+      "matchday": 23,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "US Sassuolo Calcio",
+      "result": {
+        "goalsHomeTeam": 7,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 4,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163672"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/99"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2018-02-09T19:45:00Z",
+      "status": "FINISHED",
+      "matchday": 24,
+      "homeTeamName": "ACF Fiorentina",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 2,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/165148"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/73"
+        }
+      },
+      "date": "2018-02-13T19:45:00Z",
+      "status": "FINISHED",
+      "matchday": 7,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "Tottenham Hotspur FC",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 2,
+        "halfTime": {
+          "goalsHomeTeam": 2,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163668"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/586"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2018-02-18T11:30:00Z",
+      "status": "FINISHED",
+      "matchday": 25,
+      "homeTeamName": "Torino FC",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163644"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/110"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2018-03-03T17:00:00Z",
+      "status": "FINISHED",
+      "matchday": 27,
+      "homeTeamName": "SS Lazio",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/165138"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/73"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2018-03-07T19:45:00Z",
+      "status": "FINISHED",
+      "matchday": 7,
+      "homeTeamName": "Tottenham Hotspur FC",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 2
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163637"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/115"
+        }
+      },
+      "date": "2018-03-11T14:00:00Z",
+      "status": "FINISHED",
+      "matchday": 28,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "Udinese Calcio",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163656"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/102"
+        }
+      },
+      "date": "2018-03-14T17:00:00Z",
+      "status": "FINISHED",
+      "matchday": 26,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "Atalanta BC",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163627"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/1107"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2018-03-17T19:45:00Z",
+      "status": "FINISHED",
+      "matchday": 29,
+      "homeTeamName": "SPAL Ferrara",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163617"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/98"
+        }
+      },
+      "date": "2018-03-31T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 30,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "AC Milan",
+      "result": {
+        "goalsHomeTeam": 3,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/166797"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/86"
+        }
+      },
+      "date": "2018-04-03T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 8,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "Real Madrid CF",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 3,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163600"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/1106"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2018-04-07T13:00:00Z",
+      "status": "FINISHED",
+      "matchday": 31,
+      "homeTeamName": "Benevento Calcio",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 4,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 2
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/166796"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/86"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2018-04-11T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 8,
+      "homeTeamName": "Real Madrid CF",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 3
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163596"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/584"
+        }
+      },
+      "date": "2018-04-15T16:00:00Z",
+      "status": "FINISHED",
+      "matchday": 32,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "UC Sampdoria",
+      "result": {
+        "goalsHomeTeam": 3,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163581"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/472"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2018-04-18T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 33,
+      "homeTeamName": "FC Crotone",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163574"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/113"
+        }
+      },
+      "date": "2018-04-22T13:00:00Z",
+      "status": "FINISHED",
+      "matchday": 34,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "SSC Napoli",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163566"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/108"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2018-04-29T13:00:00Z",
+      "status": "FINISHED",
+      "matchday": 35,
+      "homeTeamName": "FC Internazionale Milano",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 3,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163553"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/103"
+        }
+      },
+      "date": "2018-05-05T18:45:00Z",
+      "status": "FINISHED",
+      "matchday": 36,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "Bologna FC",
+      "result": {
+        "goalsHomeTeam": 3,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163547"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/100"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2018-05-13T13:00:00Z",
+      "status": "FINISHED",
+      "matchday": 37,
+      "homeTeamName": "AS Roma",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/163533"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/456"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/450"
+        }
+      },
+      "date": "2018-05-20T16:00:00Z",
+      "status": "FINISHED",
+      "matchday": 38,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "Hellas Verona FC",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      },
+      "odds": null
+    }
+  ]
+}

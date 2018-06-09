@@ -1,6 +1,6 @@
 .hashtag {
     position: absolute;
-    top: 5%;
+    top: 20%;
     left: 0;
     right: 0;
     text-align: center;
@@ -14,6 +14,7 @@
 }
 
 .hashtag-image-block {
+    position: relative;
     width: 100%;
     color: #fff;
     background: #000;

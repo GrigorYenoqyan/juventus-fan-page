@@ -10,7 +10,7 @@ class Thoughts extends Component {
     }
 
     changeOpacity() {
-        
+
         this.setState((c) => ({
             opChange: !c.opChange
         }))
@@ -25,13 +25,13 @@ class Thoughts extends Component {
             this.setState((c) => ({
                 shown: c.shown < thoughtsData.texts.length - 1 ? c.shown + 1 : 0
             }))
-        }, 5300)
+        }, 5400)
     }
 
     componentDidMount() {
         this.changeOpacity()
         setInterval(() => this.changeOpacity()
-            , 5500)
+            , 5600)
     }
 
     render() {
@@ -39,14 +39,17 @@ class Thoughts extends Component {
         const { opChange } = this.state;
 
         return (
-            <ContainerWhite>
-                <p className={opChange ? 'text' : 'text-hidden'} >
-                    {thoughtsData.texts[shown].text}
-                </p>
-                <p className={opChange ? 'author' : 'author-hidden'} >
-                    {thoughtsData.texts[shown].author}
-                </p>
-            </ContainerWhite>
+
+            <div className='thoughts-container'>
+                <ContainerWhite>
+                    <p className={opChange ? 'text' : 'text-hidden'} >
+                        {thoughtsData.texts[shown].text}
+                    </p>
+                    <p className={opChange ? 'author' : 'author-hidden'} >
+                        {thoughtsData.texts[shown].author}
+                    </p>
+                </ContainerWhite>
+            </div>
         )
     }
 }

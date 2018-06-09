@@ -1,0 +1,23 @@
+.match {
+    list-style: none;
+    border-bottom: 1px solid #cdcdcd;
+}
+.match > span {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.home-team, .away-team {
+    width: 23%;
+    color: rgb(27, 27, 27);
+}
+.home-team {
+    text-align: right;
+}
+.away-team {
+    text-align: left;
+
+}
+.result {
+    background: #f2f2f2;
+}

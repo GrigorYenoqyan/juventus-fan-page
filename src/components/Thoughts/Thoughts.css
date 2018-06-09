@@ -38,3 +38,7 @@
     opacity: 0;
     transition: opacity .50s;
 }
+
+.thoughts-container {
+    min-height: 192px;
+}

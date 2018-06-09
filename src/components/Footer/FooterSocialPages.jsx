@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./FooterSocial.css";
-import ContainerBlack from "../Container/ContainerBlack";
-import Title from "../Text/Title"
+import ContainerBlack from "../Containers/ContainerBlack";
+import Title from "../Titles/Title"
 
 
 
