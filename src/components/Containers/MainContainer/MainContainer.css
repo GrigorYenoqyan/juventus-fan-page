@@ -1,0 +1,9 @@
+.main-container {
+    margin-top: 72px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-container {
+        margin-top: 214px;
+    }
+}

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ContainerWhite from "../Containers/ContainerWhite";
 import ContainerBlack from "../Containers/ContainerBlack";
 
 import { stadium } from "../../data.js";

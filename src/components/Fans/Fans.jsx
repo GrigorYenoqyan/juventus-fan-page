@@ -6,10 +6,11 @@ import ContainerWhite from '../Containers/ContainerWhite';
 import Title from '../Titles/Title';
 import ContainerBlack from '../Containers/ContainerBlack';
 import Description from '../Description';
+import MainContainer from '../Containers/MainContainer';
 
 const Fans = () => {
     return (
-        <div>
+        <MainContainer>
             <HashtagImage />
 
             <ContainerWhite>
@@ -27,7 +28,7 @@ const Fans = () => {
                     {fansData.text}
                 </Description>
             </ContainerBlack>
-        </div>
+        </MainContainer>
     )
 }
 

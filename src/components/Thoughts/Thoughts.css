@@ -1,16 +1,9 @@
-.thoughts-image {
-    max-width: 100%;
-    height: auto;
-    -webkit-filter: blur(3px);
-    filter: blur(3px);
-}
-
 .text {
     font-size: 1.5rem;
     color: rgb(31, 28, 28);
     text-align: center;
     opacity: 1;
-    transition: opacity .50s;
+    transition: opacity .5s;
 }
 
 .author {
@@ -19,7 +12,7 @@
     color: rgb(31, 28, 28);
     text-align: center;
     opacity: 1;
-    transition: opacity .50s;
+    transition: opacity .5s;
 }
 
 .text-hidden {
@@ -27,7 +20,7 @@
     color: rgb(31, 28, 28);
     text-align: center;
     opacity: 0;
-    transition: opacity .50s;
+    transition: opacity .5s;
 }
 
 .author-hidden {
@@ -36,9 +29,9 @@
     color: rgb(31, 28, 28);
     text-align: center;
     opacity: 0;
-    transition: opacity .50s;
+    transition: opacity .5s;
 }
 
 .thoughts-container {
-    min-height: 192px;
+    min-height: 13rem;
 }

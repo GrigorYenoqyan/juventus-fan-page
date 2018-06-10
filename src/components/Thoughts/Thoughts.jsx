@@ -6,7 +6,8 @@ import ContainerWhite from '../Containers/ContainerWhite/index.js';
 class Thoughts extends Component {
     state = {
         shown: 0,
-        opChange: false
+        opChange: false,
+        intervalId: null
     }
 
     changeOpacity() {
@@ -15,28 +16,33 @@ class Thoughts extends Component {
             opChange: !c.opChange
         }))
 
-        setTimeout(() => {
+        this.timeoutOne =  setTimeout(() => {
             this.setState((c) => ({
                 opChange: !c.opChange
             }))
         }, 5000)
 
-        setTimeout(() => {
+        this.timeoutTwo = setTimeout(() => {
             this.setState((c) => ({
                 shown: c.shown < thoughtsData.texts.length - 1 ? c.shown + 1 : 0
             }))
-        }, 5400)
+        }, 5500)
     }
 
     componentDidMount() {
         this.changeOpacity()
-        setInterval(() => this.changeOpacity()
-            , 5600)
+        this.interval = setInterval(() => this.changeOpacity()
+            , 6000)
+    }
+
+    componentWillUnmount() {
+        if (this.timeoutOne) clearTimeout(this.timeoutOne);
+        if (this.timeoutTwo) clearTimeout(this.timeoutTwo);
+        if (this.interval) clearInterval(this.interval);
     }
 
     render() {
-        const { shown } = this.state;
-        const { opChange } = this.state;
+        const { shown, opChange } = this.state;
 
         return (
 

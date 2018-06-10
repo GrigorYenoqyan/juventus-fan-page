@@ -6,6 +6,7 @@ import ArticleName from '../Titles/ArticleName';
 import Description from '../Description';
 import ContainerBlack from '../Containers/ContainerBlack';
 import Title from '../Titles/Title';
+import MainContainer from '../Containers/MainContainer';
 import { historyData } from '../../data.js';
 import './History.css';
 
@@ -53,7 +54,7 @@ class History extends Component {
 
     render() {
         return (
-            <div>
+            <MainContainer>
                 <HashtagImage />
                 <ContainerWhite>
                     <Title color='black'>
@@ -61,7 +62,7 @@ class History extends Component {
                     </Title>
                 </ContainerWhite>
                 {this.historyContent()}
-            </div>
+            </MainContainer>
         )
     }
 }
