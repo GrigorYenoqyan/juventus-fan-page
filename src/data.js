@@ -1,3 +1,52 @@
+import {
+  faFacebookF, 
+  faInstagram, 
+  faYoutube,
+  faTwitter,
+  faSnapchatGhost,
+  faSpotify,
+  faLinkedinIn,
+} from '@fortawesome/fontawesome-free-brands';
+
+import  faRss from '@fortawesome/fontawesome-free-solid/faRss';
+
+export const socialIcons = [
+  {
+    icon: faFacebookF,
+    link: "https://www.facebook.com/Juventus/",
+  },
+  {
+    icon: faInstagram,
+    link: "https://www.instagram.com/juventus/",
+  },
+  {
+    icon: faYoutube,
+    link: "https://www.youtube.com/juventus",
+  },
+  {
+    icon: faTwitter,
+    link: "https://twitter.com/juventusfc",
+  },
+  {
+    icon: faSnapchatGhost,
+    link: "https://www.snapchat.com/add/juventus",
+  },
+  {
+    icon: faSpotify,
+    link: "http://www.juventusound-spotify.it/",
+  },
+  {
+    icon: faLinkedinIn,
+    link: "https://www.linkedin.com/company/juventus-football-club/",
+  },
+  {
+    icon: faRss,
+    link: "http://www.juventus.com/rss/news/it.xml",
+  },
+];
+
+
+
 export const trophies = [
     {
         name: "scudetto",

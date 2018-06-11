@@ -4,21 +4,29 @@ import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
 
-    teamPopup(e) {
-        e.stopPropagation();
-        e.target.lastChild.style = 'display: inline;'
-    }
+    // teamPopup(e) {
+    //     e.stopPropagation();
+    //     e.target.lastChild.style = 'display: inline;'
+    // }
 
-    teamPopupHide(e) {
-        e.stopPropagation();
-        e.currentTarget.style = 'display: none;'
-    }
+    // teamPopupHide(e) {
+    //     e.stopPropagation();
+    //     e.currentTarget.style = 'display: none;'
+    // }
 
     render() {
         return (
             <div className='header-container'>
                 <div className='container-center'>
                     <ul className='listUl'>
+                        <li className=''>
+                            <NavLink
+                                className='logo-link'
+                                to='/home'
+                            >
+                                <img src="./images/logo-j1.png" alt="" className="header-logo" />
+                            </NavLink>
+                        </li>
                         <li className='listItems'>
                             <NavLink
                                 className='listItemsLinks'
@@ -26,7 +34,7 @@ class Header extends Component {
                                 activeClassName='listItemsLinks-selected'
                             >
                                 HOME
-                    </NavLink>
+                            </NavLink>
                         </li>
                         <li className='listItems'>
                             <NavLink
@@ -35,7 +43,7 @@ class Header extends Component {
                                 activeClassName='listItemsLinks-selected'
                             >
                                 NEWS
-                    </NavLink>
+                            </NavLink>
                         </li>
                         <li className='listItems'>
                             <NavLink
@@ -44,30 +52,33 @@ class Header extends Component {
                                 activeClassName='listItemsLinks-selected'
                             >
                                 CREATORS
-                    </NavLink>
+                            </NavLink>
                         </li>
-                        <li className='listItems' onMouseEnter={this.teamPopup}>
-                            TEAM
-                                <div onMouseLeave={this.teamPopupHide} className='team-ul-container'>
-                                <ul className='team-ul'>
-                                    <li className='team-popup-li'>
-                                        <NavLink
-                                            className=''
-                                            to='/players'
-                                        >
-                                            Players
-                                         </NavLink>
-                                    </li>
-                                    <li className='team-popup-li'>
-                                        <NavLink
-                                            className=''
-                                            to='/fans'
-                                        >
-                                            Fans
-                                         </NavLink>
-                                    </li>
-                                </ul>
-                            </div>
+                        <li className='listItems team-link'>
+                            <NavLink
+                                className='listItemsLinks'
+                                to=""
+                            >
+                                TEAM
+                            </NavLink>
+                            <ul className='team-ul'>
+                                <li className='team-popup-li'>
+                                    <NavLink
+                                        className=''
+                                        to='/players'
+                                    >
+                                        Players
+                                        </NavLink>
+                                </li>
+                                <li className='listItems team-popup-li'>
+                                    <NavLink
+                                        className=''
+                                        to='/fans'
+                                    >
+                                        Fans
+                                        </NavLink>
+                                </li>
+                            </ul>
                         </li>
                         <li className='listItems'>
                             <NavLink
