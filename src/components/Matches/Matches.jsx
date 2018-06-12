@@ -1,8 +1,8 @@
 import React from "react";
 import Match from "./Match";
-import Title from "../Titles/Title";
-import ContainerWhite from "../Containers/ContainerWhite/index.js";
-import MainContainer from '../Containers/MainContainer';
+import Title from "../Title";
+import ColorContainer from "../ColorContainer";
+import PageContainer from '../PageContainer';
 
 import "./Matches.css";
 
@@ -11,16 +11,16 @@ import { matchesData } from "../../data.js";
 const Matches = () => {
     const { fixtures: matches } = matchesData;
     return (
-        <MainContainer>
+        <PageContainer>
             <Title color="black">Matches</Title>
-            <ContainerWhite>
+            <ColorContainer color='white'>
                 <ul>
                     {
                         matches.map((match) => <Match match={match} key={match.date} />)
                     }
                 </ul>
-            </ContainerWhite>
-        </MainContainer>
+            </ColorContainer>
+        </PageContainer>
     )
 }
 

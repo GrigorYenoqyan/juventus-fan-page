@@ -1,26 +1,24 @@
 import React from 'react';
-import ContainerWhite from "../Containers/ContainerWhite";
-import ContainerBlack from "../Containers/ContainerBlack";
-import Title from "../Titles/Title";
+import ColorContainer from "../ColorContainer";
+import Title from "../Title";
 import "./News.css";
-import MainContainer from '../Containers/MainContainer';
+import PageContainer from '../PageContainer';
 import { news } from "../../data.js";
-import ArticleName from '../Titles/ArticleName';
+import ArticleName from '../ArticleName';
 
 import Description from "../Description";
 
 
 const News = () => {
     return (
-        <MainContainer>
-            <ContainerWhite>
+        <PageContainer>
+            <ColorContainer color='white'>
                 <Title color="black">News</Title>
-            </ContainerWhite>
+            </ColorContainer>
             {
                 news.map((article, i) => {
                     let cond = i % 2;
                     let color = cond ? "black" : "white";
-                    console.log(color)
                     let reverse = cond ? "news-content-wrapper-reverse" : "";
                     let content = (
                         <div>
@@ -45,19 +43,19 @@ const News = () => {
                         <div key={article.id}>
                             {
                                 cond ? 
-                                    <ContainerWhite>
+                                    <ColorContainer color='white'>
                                         {content}
-                                    </ContainerWhite> : 
-                                    <ContainerBlack>
+                                    </ColorContainer> : 
+                                    <ColorContainer color='black'>
                                         {content}
-                                    </ContainerBlack>
+                                    </ColorContainer>
                             }
                             
                         </div>
                     )
                 })
             }
-        </MainContainer>
+        </PageContainer>
         
     )
 }
@@ -75,11 +73,11 @@ const News = () => {
    
 
 // return (
-//     <ContainerBlack>
+//     <ColorContainer>
 //         <ul className="newss">
 //             {arrays.map((el) =>( <li  key={el.news} className='news'> <p className="newsParagraphs">{el.news} </p>  </li>))}
 //         </ul>
-//         </ContainerBlack>
+//         </ColorContainer>
     
      
 //    )

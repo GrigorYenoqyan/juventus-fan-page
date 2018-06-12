@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Slideshow.css';
 import { stadium } from '../../data';
-import ContainerWhite from '../Containers/ContainerWhite';
+import ColorContainer from '../ColorContainer';
 
 class Slideshow extends Component {
     state = {
@@ -26,8 +26,9 @@ class Slideshow extends Component {
 
     render() {
         const { translate } = this.state;
+        
         return (
-            <ContainerWhite>
+            <ColorContainer color='white'>
                 <div className='slideshow'>
                     <div
                         className='slide-wrapper'
@@ -58,7 +59,7 @@ class Slideshow extends Component {
                         right
                     </button>
                 </div>
-            </ContainerWhite>
+            </ColorContainer>
         )
     }
 }

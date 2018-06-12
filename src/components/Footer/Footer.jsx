@@ -1,8 +1,8 @@
 import React from "react";
 import Social from "./Social/Social";
-import ContainerBlack from "../Containers/ContainerBlack";
-import Subtitle from "../Titles/Subtitle";
-import Title from "../Titles/Title";
+import ColorContainer from "../ColorContainer";
+import Subtitle from "../Subtitle";
+import Title from "../Title";
 
 
 import "./Footer.css";
@@ -10,7 +10,7 @@ import "./Footer.css";
 const Footer = () => {
     return (
         <div>
-            <ContainerBlack>
+            <ColorContainer color='black'>
                 <Subtitle color="white">Social pages of the best club</Subtitle>
                 <Social />
                 <Title color="white">#FINOALLAFINE</Title>
@@ -23,7 +23,7 @@ const Footer = () => {
                     </ul>
                     <span className="copyright">© 2018 Juventus Football Club S.p.A.</span>
                 </div>
-            </ContainerBlack>
+            </ColorContainer>
         </div>
     )
 }

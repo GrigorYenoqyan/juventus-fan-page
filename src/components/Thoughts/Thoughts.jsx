@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { thoughtsData } from "../../data.js";
 import './Thoughts.css';
-import ContainerWhite from '../Containers/ContainerWhite/index.js';
+import PageContainer from '../PageContainer';
 
 class Thoughts extends Component {
     state = {
@@ -47,14 +47,14 @@ class Thoughts extends Component {
         return (
 
             <div className='thoughts-container'>
-                <ContainerWhite>
+                <PageContainer>
                     <p className={opChange ? 'text' : 'text-hidden'} >
                         {thoughtsData.texts[shown].text}
                     </p>
                     <p className={opChange ? 'author' : 'author-hidden'} >
                         {thoughtsData.texts[shown].author}
                     </p>
-                </ContainerWhite>
+                </PageContainer>
             </div>
         )
     }
