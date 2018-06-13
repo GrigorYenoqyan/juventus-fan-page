@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { thoughtsData } from "../../data.js";
 import './Thoughts.css';
-import PageContainer from '../PageContainer';
+import ColorContainer from '../ColorContainer';
 
 class Thoughts extends Component {
     state = {
@@ -36,9 +36,9 @@ class Thoughts extends Component {
     }
 
     componentWillUnmount() {
-        if (this.timeoutOne) clearTimeout(this.timeoutOne);
-        if (this.timeoutTwo) clearTimeout(this.timeoutTwo);
-        if (this.interval) clearInterval(this.interval);
+        this.timeoutOne && clearTimeout(this.timeoutOne);
+        this.timeoutTwo && clearTimeout(this.timeoutTwo);
+        this.interval && clearInterval(this.interval);
     }
 
     render() {
@@ -47,14 +47,14 @@ class Thoughts extends Component {
         return (
 
             <div className='thoughts-container'>
-                <PageContainer>
+                <ColorContainer color='white'>
                     <p className={opChange ? 'text' : 'text-hidden'} >
                         {thoughtsData.texts[shown].text}
                     </p>
                     <p className={opChange ? 'author' : 'author-hidden'} >
                         {thoughtsData.texts[shown].author}
                     </p>
-                </PageContainer>
+                </ColorContainer>
             </div>
         )
     }

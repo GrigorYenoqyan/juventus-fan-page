@@ -4,7 +4,6 @@ import Title from '../Title';
 import ColorContainer from '../ColorContainer';
 import Description from '../Description';
 import PageContainer from '../PageContainer';
-
 import './Fans.css';
 import { fansData } from '../../data.js';
 
@@ -23,8 +22,8 @@ const Fans = () => {
                 <img src={fansData.image} alt='fansImage' className='fans-image' />
             </ColorContainer>
 
-            <ColorContainer color='black'>
-                <Description color='white' >
+            <ColorContainer color='white'>
+                <Description color='black' >
                     {fansData.text}
                 </Description>
             </ColorContainer>

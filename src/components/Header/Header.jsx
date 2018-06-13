@@ -23,6 +23,7 @@ class Header extends Component {
                             <NavLink
                                 className='logo-link'
                                 to='/home'
+                                isActive={window.scrollTo(0, 0)}
                             >
                                 <img src="./images/logo-j1.png" alt="" className="header-logo" />
                             </NavLink>
@@ -32,6 +33,7 @@ class Header extends Component {
                                 className='listItemsLinks'
                                 to='/home'
                                 activeClassName='listItemsLinks-selected'
+                                isActive={window.scrollTo(0, 0)}
                             >
                                 HOME
                             </NavLink>
@@ -41,6 +43,7 @@ class Header extends Component {
                                 className='listItemsLinks'
                                 to='/news'
                                 activeClassName='listItemsLinks-selected'
+                                isActive={window.scrollTo(0, 0)}
                             >
                                 NEWS
                             </NavLink>
@@ -50,14 +53,15 @@ class Header extends Component {
                                 className='listItemsLinks'
                                 to='/creators'
                                 activeClassName='listItemsLinks-selected'
+                                isActive={window.scrollTo(0, 0)}
                             >
                                 CREATORS
                             </NavLink>
                         </li>
                         <li className='listItems team-link'>
                             <NavLink
-                                className='listItemsLinks'
-                                to=""
+                                className='listItemsLinks team'
+                                to="#"
                             >
                                 TEAM
                             </NavLink>
@@ -66,6 +70,7 @@ class Header extends Component {
                                     <NavLink
                                         className=''
                                         to='/players'
+                                        isActive={window.scrollTo(0, 0)}
                                     >
                                         Players
                                         </NavLink>
@@ -74,6 +79,7 @@ class Header extends Component {
                                     <NavLink
                                         className=''
                                         to='/fans'
+                                        isActive={window.scrollTo(0, 0)}
                                     >
                                         Fans
                                         </NavLink>
@@ -85,6 +91,7 @@ class Header extends Component {
                                 className='listItemsLinks'
                                 to='/matches'
                                 activeClassName='listItemsLinks-selected'
+                                isActive={window.scrollTo(0, 0)}
                             >
                                 MATCHES
                     </NavLink>
@@ -94,6 +101,7 @@ class Header extends Component {
                                 className='listItemsLinks'
                                 to='/history'
                                 activeClassName='listItemsLinks-selected'
+                                isActive={window.scrollTo(0, 0)}
                             >
                                 HISTORY
                     </NavLink>
@@ -103,6 +111,7 @@ class Header extends Component {
                                 className='listItemsLinks'
                                 to='/stadium'
                                 activeClassName='listItemsLinks-selected'
+                                isActive={window.scrollTo(0, 0)}
                             >
                                 STADIUM
                     </NavLink>
