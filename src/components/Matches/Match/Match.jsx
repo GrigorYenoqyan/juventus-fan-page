@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 import "./Match.css";
 
@@ -32,27 +33,10 @@ class Match extends Component {
         const fullMinutes = minutes < 10 ? `0${minutes}` : minutes;
         return `${fullHours}:${fullMinutes}`;
     }
-    // getLogo = (url) => {
-    //     fetch(url, {mode: "no-cors"})
-    //         .then((response) => response.json())
-    //         .then(data => {
-    //             console.log(data);
-    //         })
-    // }
 
     render() {
         const { match } = this.props;
         const fullDate = this.returnDate(match.date);
-        // const { currentMonth } = this.state;
-        // let newMonth = fullDate.getMonth();
-        // if (newMonth > currentMonth) {
-        //     console.log("changed");
-        //     console.log(newMonth);
-        //     console.log(currentMonth);
-        //     this.setState({
-        //         currentMonth: newMonth,
-        //     })
-        // }
         return (
             <div>
                 {
@@ -71,5 +55,10 @@ class Match extends Component {
         )
     }
 }
+
+Match.propTypes = {
+    match: PropTypes.object.isRequired,
+}
+
 
 export default Match;
