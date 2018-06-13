@@ -1,6 +1,6 @@
 import React from "react";
-import Title from "../../Titles/Title";
-import ArticleName from "../../Titles/ArticleName";
+import Title from "../../Title";
+import ArticleName from "../../ArticleName";
 import PropTypes from "prop-types";
 
 import "./Trophy.css";

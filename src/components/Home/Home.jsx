@@ -1,15 +1,15 @@
 import React from 'react';
 import Thoughts from '../Thoughts';
 import TrophySection from '../TrophySection';
-import MainContainer from '../Containers/MainContainer';
+import PageContainer from '../PageContainer';
 import './Home.css';
 
 const Home = () => {
     return (
-        <MainContainer>
+        <PageContainer>
             <Thoughts />
             <TrophySection />
-        </MainContainer>
+        </PageContainer>
     )
 }
 
