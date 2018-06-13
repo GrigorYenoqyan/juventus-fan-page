@@ -4,10 +4,10 @@ import Header from '../Header';
 import Home from '../Home';
 import News from '../News';
 import History from '../History';
-import Slideshow from '../Slideshow';
 import Matches from '../Matches';
 import Fans from '../Fans';
 import Footer from '../Footer';
+import Stadium from '../Stadium';
 
 const Routes = () => {
     return (
@@ -20,7 +20,7 @@ const Routes = () => {
             <Route path='/fans' component={Fans} />
             <Route path='/matches' component={Matches} />
             <Route path='/history' component={History} />
-            <Route path='/stadium' component={Slideshow} />
+            <Route path='/stadium' component={Stadium} />
             <Route path='/' component={Footer} />
         </div>
     )
