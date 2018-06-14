@@ -5,15 +5,7 @@ import "./Match.css";
 
 
 class Match extends Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {
-            currentMonth: 0,
-        }
-    }
-
-
+    
     returnDate = (date) => {
         return new Date(Date.parse(date));
     }
