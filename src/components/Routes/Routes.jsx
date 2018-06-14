@@ -7,7 +7,6 @@ import History from '../History';
 import Matches from '../Matches';
 import Fans from '../Fans';
 import Footer from '../Footer';
-import Partners from '../Partners';
 import Stadium from '../Stadium';
 
 const Routes = () => {
@@ -22,7 +21,6 @@ const Routes = () => {
             <Route path='/matches' component={Matches} />
             <Route path='/history' component={History} />
             <Route path='/stadium' component={Stadium} />
-            <Route path='/' component={Partners} />
             <Route path='/' component={Footer} />
         </div>
     )
