@@ -1,6 +1,6 @@
 import React from "react";
 import Slideshow from '../Slideshow'
-import { stadium } from '../../data';
+import { stadiumData as stadium } from '../../data';
 import Descriprion from '../Description';
 import ColorContainer from '../ColorContainer';
 import PageContainer from '../PageContainer';

@@ -1,6 +1,6 @@
 import React from "react";
-import ContainerBlack from "../Containers/ContainerBlack";
-import Subtitle from "../Titles/Subtitle";
+import ColorContainer from "../ColorContainer";
+import Subtitle from "../Subtitle";
 
 import adidas from "../../assets/images/adidas_grey.svg";
 import jeep from "../../assets/images/jeep_grey.svg";
@@ -10,7 +10,7 @@ import "./Partners.css";
 
 const PartnersContainer = () => {
     return (
-        <ContainerBlack>
+        <ColorContainer color="black">
             <Subtitle color="white">Partners</Subtitle>
             <div className="partners-container">
                 <div className="partner">
@@ -29,7 +29,7 @@ const PartnersContainer = () => {
                     </a>
                 </div>
             </div>
-        </ContainerBlack>
+        </ColorContainer>
     )
 }
 
