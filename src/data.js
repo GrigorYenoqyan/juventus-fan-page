@@ -10,8 +10,74 @@ import {
 
 import  faRss from '@fortawesome/fontawesome-free-solid/faRss';
 
-export const socialIcons = [
-  {
+import scudetto from "./assets/images/trophy_scudetto.png";
+import ucl from "./assets/images/trophy_champions_league.png";
+import coppaItalia from "./assets/images/trophy_coppa_italia.png";
+import international from "./assets/images/trophy_coppa_intercontinentale.png";
+import uefaCup from "./assets/images/trophy_coppa_uefa.png";
+import uefaSuperCup from "./assets/images/trophy_supercoppa_europea.png";
+import uefaWinnersCup from "./assets/images/trophy_coppa_delle_coppe.png";
+import italianSuperCup from "./assets/images/trophy_supercoppa_italiana.png";
+
+
+import stadium1 from "./assets/images/001.jpg";
+import stadium2 from "./assets/images/002.jpg";
+import stadium3 from "./assets/images/003.jpg";
+import stadium4 from "./assets/images/004.jpg";
+
+import hashtag from "./assets/images/hashtagImg.png";
+
+import nedved from "./assets/images/Nedved11a_batchedit.jpg";
+import matuidi from "./assets/images/matuidi01.jpg";
+import marcizio from "./assets/images/IMG_3120.JPG";
+import coppe from "./assets/images/coppe01.jpg";
+
+
+export const trophiesData = [
+    {
+        name: "scudetto",
+      logo: scudetto,
+        count: 36,
+    },
+    {
+        name: "uefa champions league ",
+      logo: ucl,
+        count: 2,
+    },
+    {
+        name: "coppa italia",
+      logo: coppaItalia,
+        count: 13,
+    },
+    {
+        name: "international cup",
+      logo: international,
+        count: 2,
+    },
+    {
+        name: "uefa cup",
+      logo: uefaCup,
+        count: 3,
+    },
+    {
+        name: "uefa super cup",
+      logo: uefaSuperCup,
+        count: 2,
+    },
+    {
+        name: "uefa cup winners cup",
+      logo: uefaWinnersCup,
+        count: 1,
+    },
+    {
+        name: "italian super cup",
+      logo: italianSuperCup,
+        count: 7,
+    }
+]
+
+export const socialIconsData = [
+    {
     icon: faFacebookF,
     link: "https://www.facebook.com/Juventus/",
   },
@@ -45,86 +111,36 @@ export const socialIcons = [
   },
 ];
 
-
-
-export const trophies = [
-    {
-        name: "scudetto",
-        logo: "./images/trophy_scudetto.png",
-        count: 36,
-    },
-    {
-        name: "uefa champions league ",
-        logo: "./images/trophy_champions_league.png",
-        count: 2,
-    },
-    {
-        name: "coppa italia",
-        logo: "./images/trophy_coppa_italia.png",
-        count: 13,
-    },
-    {
-        name: "international cup",
-        logo: "./images/trophy_coppa_intercontinentale.png",
-        count: 2,
-    },
-    {
-        name: "uefa cup",
-        logo: "./images/trophy_coppa_uefa.png",
-        count: 3,
-    },
-    {
-        name: "uefa super cup",
-        logo: "./images/trophy_supercoppa_europea.png",
-        count: 2,
-    },
-    {
-        name: "uefa cup winners cup",
-        logo: "./images/trophy_coppa_delle_coppe.png",
-        count: 1,
-    },
-    // {
-    //     name: "intertoto cup",
-    //     logo: "./images/trophy_scudetto.png",
-    //     count: 1,
-    // },
-    {
-        name: "italian super cup",
-        logo: "./images/trophy_supercoppa_italiana.png",
-        count: 7,
-    }
-]
-
-export const news = [
+export const newsData = [
     {
         id: 1,
         title: "In celebration of the club's 100-year anniversary, Juventus VP Pavel Nedved and his son played for FK Skalná on Saturday",
         content: "It was a party atmosphere in the west of Czech Republic on Saturday as Juventus VP Pavel Nedved and his son Pavel Jr. returned home to suit up for Czech side FK Skalna in celebration of the club's 100-year anniversary. In the black and white that is so familiar, the 2003 Balon d'Or winner played at the spot where he took some of his first steps as a player along side his son. The final result was 1-4 in favor of Banik on a day that will never be forgotten.",
-        image: "./images/Nedved11a_batchedit.jpg"
+        image: nedved
     },
     {
         id: 2,
         title: "International Recap: France tops Italy",
         content: "Four Bianconeri were in action on Friday as the international friendlies continued across the globe both for teams getting prepared for the FIFA World Cup and others taking a closer look at players as we head into the summer. A blockbuster friendly was on tap Friday night in Nice as France hosted Italy in a meeting of the two neighbors. For Gli Azzurri, Mattia De Sciglio started and played all 90 minutes while Blaise Matuidi, who started Italy's last match, played the final 13 minutes of Les Blues 3-1 win.",
-        image: "./images/matuidi01.jpg"
+        image: matuidi
     },
     {
         id: 3,
         title: "Il Principino visits Tokyo Academy!",
         content: "It was a special day for Claudio Marchisio and the JAcademy in Tokyo as the legendary Bianconero midfielder, who is on holiday in Japan with his family, dedicated a morning to the Academy giving smiles and unforgettable memories to 40 young players. It wasn't just that, however, as Marchiso gave some tips and tricks to the young Bianconeri, creating an amazing experience not only for the children but for Il Principino.",
-        image: "./images/IMG_3120.JPG"
+        image: marcizio
     },
     {
         id: 4,
         title: "Three more trophies at Juventus Museum",
         content: "There are now three more reasons to visit Juventus Museum this summer! As of today, visitors can admire the trio of trophies won by the club’s men’s and women’s teams during the past season. We are, of course, talking about the seventh straight Scudetto won by Massimiliano Allegri’s men, which saw his team enter the realm of #MY7H, and the fourth consecutive Coppa Italia – another unprecedented achievement in Italian football. Meanwhile, there is also the historic first Scudetto conquered by Juventus Women in their inaugural campaign under Rita Guarino.",
-        image: "./images/coppe01.jpg"
+        image: coppe
     },
 ]
 
 
 export const hashtagImageData = {
-    image: './images/hashtagImg.png',
+    image: hashtag,
     hashtag: '#FINOALLAFINE'
 }
 
@@ -185,12 +201,12 @@ export const thoughtsData = {
     ]
 }
 
-export const stadium = {
+export const stadiumData = {
     images: [
-        "./images/001.jpg",
-        "./images/002.jpg",
-        "./images/003.jpg",
-        "./images/004.jpg",
+        stadium1,
+        stadium2,
+        stadium3,
+        stadium4,
     ],
     text: "Allianz Stadium is the new name of Juventus' home ground after the club signed a naming rights agreement with Allianz and Lagardère Sports, holders of the facility’s naming rights. Starting on 1 July 2017, the stadium will be known as the Allianz Stadium of Turin for six seasons until 30 June 2023, joining the Allianz Family of Stadiums first created in 2005 which features Munich’s Allianz Arena, Sydney’s Allianz Stadium, Allianz Park in London, Nice’s Allianz Riviera, Allianz Parque in Sao Paulo and Allianz Stadion in Vienna. “It’s with great pleasure that we welcome Allianz into our family of partners for a deal as special as this one – the naming of our home,” declared Giorgio Ricci, Co-Chief Revenue Officer and Head of Global Partnerships and Corporate Revenues at Juventus. “The arrival of a global giant in the insurance sector such as Allianz is further testament to how Juventus has established itself as a first-class international institution, whilst enriching a stadium that has played a significant role, since its inauguration in 2011, to creating history with six legendary Scudetto titles celebrated within its walls. “Our ambition and objective is to collaborate with Allianz for the benefit of our supporters, just as with the other partners who have helped transform the stadium into a theatre, ensuring that each match is a show of entertainment and a welcoming place for families.”Thanks to the naming rights agreement, once clearance has been given, Allianz will be able to personalise the facility with signage reading “Allianz Stadium” on the north-east and south-east corners of the facility, as well as the main entrance and signage inside the ground. The Allianz Stadium logo will be visible inside the stadium, on the north, south and east sides of the ground for television broadcasts, as well as on a number of other entry and access points to the stands. Sergio Balbinot, member of the Board of Management of Allianz SE, with responsibility over Italy, West & Southern Europe, the Middle East and Africa, declared: “As Allianz we are particularly satisfied with the partnership around this wonderful stadium, which is one of the established hubs of world soccer. In this structure, unique in Italy, Juventus, a team that can boast an extraordinary series of successes and primary international visibility, plays against all the most important Italian and foreign teams, which are followed, live in the stadium and live on tv, by millions of fans from all over the world. Allianz, on its part, is a major global player in the insurance and asset management business, with over 86 million clients in more than 70 countries and a well-recognized and highly regarded brand. The Allianz Stadium in Turin, therefore, is the natural meeting point between such a structure of excellence and a brand like Allianz”.Opened on 8 September 2011, Juventus Stadium was built according to cutting-edge building standards with an emphasis on energy saving. It was created to guarantee spectators a unique experience thanks to the proximity of the pitch, which is just 7.5m from the front row, and an excellent view from all sides of the stadium. It also features 110,000m2 of support service, commercial and entertainment areas. The facility is fully covered and has a capacity in excess of 41,500 seats, which include 4,000 premium seats, 62 sky boxes and eight business areas. Juventus Museum, 31 bars and restaurants, two children’s play areas, 10 Juventus Stores and 4,000 car parking spaces complete the range of services on offer to the general public. “We are very proud to have reached this agreement between two such prestigious international brands in Juventus and Allianz,” added Lagardère Sports and Entertainment CEO Andrew Georgiou. “As a result, Allianz will be able to move closer to millions of Juve fans around the world.”  Since it opened, more than six million people have enjoyed the Juventus Stadium experience: the club has recorded 99 sell-outs from 114 Serie A matches across six years, with 96.7% of total capacity filled. In all competitions, the stadium has been sold out 130 times in 156 matches, a rate of 83%. This season, every single home match has been a sell-out. The stadium is open seven days a week, which has allowed more than 883,000 visitors to experience the museum and stadium tours – 166,750 last season alone.",
 }

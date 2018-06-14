@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     padding-top: 40px;
+    margin-bottom: 3%;
 }
 .partners-container img {
     width: 100%;
@@ -14,17 +15,17 @@
     text-align: center;
 }
 .adidas:hover {
-    background-image: url(../../images/adidas.svg);
+    background-image: url(../../assets/images/adidas.svg);
     background-position: center bottom;
     background-repeat: no-repeat;
 }
 .jeep:hover {
-    background-image: url(../../images/jeep.svg);
+    background-image: url(../../assets/images/jeep.svg);
     background-position: center bottom;
     background-repeat: no-repeat;
 }
 .cygames:hover {
-    background-image: url(../../images/cygames.svg);
+    background-image: url(../../assets/images/cygames.svg);
     background-position: center bottom;
     background-repeat: no-repeat;
 }

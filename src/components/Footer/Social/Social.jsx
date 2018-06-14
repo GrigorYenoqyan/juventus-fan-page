@@ -4,7 +4,7 @@ import React from "react";
 
 
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { socialIcons } from "../../../data.js";
+import { socialIconsData as socialIcons } from "../../../data.js";
 
 import "./Social.css";
 
@@ -17,7 +17,7 @@ const Social = () => {
             {
                 socialIcons.map((icon, i) => (
                         <li className="icon" key={i}>
-                            <a href={icon.link} target="_blank">
+                            <a href={icon.link} rel="noopener noreferrer" target="_blank">
                                 <FontAwesomeIcon
                                     icon={icon.icon}
                                     className="font-icon"

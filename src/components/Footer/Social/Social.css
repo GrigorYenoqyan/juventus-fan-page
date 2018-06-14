@@ -5,10 +5,6 @@
     margin: 4% 0 6% 0;
 }
 
-/* .icon-wrapper {
-    width:
-} */
-
 .icon {
     list-style: none;
     width: 3rem;
@@ -32,10 +28,4 @@
 }
 .icon:hover > a{
     color: #fdc600;
-}
-
-.font-icon {
-    /* position: absolute;
-    top: 30%;
-    left: 30%; */
 }

@@ -2,8 +2,8 @@ import React from 'react';
 import ColorContainer from "../ColorContainer";
 import Title from "../Title";
 import "./News.css";
+import { newsData as news } from "../../data.js";
 import PageContainer from '../PageContainer';
-import { news } from "../../data.js";
 
 import NewsContent from "./NewsContent";
 
