@@ -32,6 +32,7 @@ import matuidi from "./assets/images/matuidi01.jpg";
 import marcizio from "./assets/images/IMG_3120.JPG";
 import coppe from "./assets/images/coppe01.jpg";
 
+import fans from './assets/images/fan_1.jpg'
 
 export const trophiesData = [
     {
@@ -145,7 +146,7 @@ export const hashtagImageData = {
 }
 
 export const fansData = {
-    image: "./images/fan_1.jpg",
+    image: fans,
     text: 'Juventus are the best-supported football club in Italy, with over 12 million fans or tifosi, which represent approximately 34% of the total Italian football fans according to a research published in September 2016 by Italian research agency Demos & Pi, as well as one of the most supported football clubs in the world, with over 300 million supporters (41 million in Europe alone), particularly in the Mediterranean countries to which a large number of Italian diaspora have emigrated. The Torinese side has fan clubs branches across the globe. Demand for Juventus tickets in occasional home games held away from Turin is high, suggesting that Juventus have stronger support in other parts of the country. Juventus is widely and especially popular throughout mainland Southern Italy, Sicily and Malta, leading the team to have one of the largest followings in its away matches, more than in Turin itself.'
 }
 
