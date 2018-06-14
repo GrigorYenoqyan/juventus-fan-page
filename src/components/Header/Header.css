@@ -65,6 +65,7 @@
         font-size: 1rem;
         color: grey;
     }
+
     .listItemsLinks {
         font-size: 1rem;
     }
@@ -75,9 +76,14 @@
         display: block;
         font-size: 1, 5rem;
     }
+
     .listItemsLinks {
         color: grey;
         font-size: 1, 5rem;
+    }
+
+    .header-container {
+        position: relative;
     }
 }
 

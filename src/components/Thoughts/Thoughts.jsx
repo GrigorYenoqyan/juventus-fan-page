@@ -7,7 +7,6 @@ class Thoughts extends Component {
     state = {
         shown: 0,
         opChange: false,
-        intervalId: null
     }
 
     changeOpacity() {
@@ -48,10 +47,10 @@ class Thoughts extends Component {
 
             <div className='thoughts-container'>
                 <ColorContainer color='white'>
-                    <p className={opChange ? 'text' : 'text-hidden'} >
+                    <p className={opChange ? 'text shown' : 'text hidden'} >
                         {thoughtsData.texts[shown].text}
                     </p>
-                    <p className={opChange ? 'author' : 'author-hidden'} >
+                    <p className={opChange ? 'author shown' : 'author hidden'} >
                         {thoughtsData.texts[shown].author}
                     </p>
                 </ColorContainer>
