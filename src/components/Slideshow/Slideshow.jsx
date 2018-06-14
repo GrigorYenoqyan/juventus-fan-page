@@ -65,8 +65,8 @@ class Slideshow extends Component {
                             <Slides images={images} />
                         </div>
                     </div>
-                </div>
                 <Buttons rightSlide={() => this.rightSlide(true)} leftSlide={() => this.leftSlide()} />
+                </div>
             </ColorContainer>
         )
     }

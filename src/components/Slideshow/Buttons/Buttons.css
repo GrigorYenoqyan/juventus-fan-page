@@ -1,16 +1,17 @@
 .right {
     position: absolute;
-    top: 440px;
-    left: 1235px;
+    top: 230px;
+    left: 630px;
 }
 
 .left {
     position: absolute;
-    top: 440px;
-    left: 620px;
+    top: 230px;
+    left: 30px;
 }
 
 .slideshow-icon {
     color: rgba(40, 41, 40, 0.623);
     font-size: 7em;
+    cursor: pointer;
 }
