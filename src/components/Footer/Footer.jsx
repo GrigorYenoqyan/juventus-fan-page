@@ -1,7 +1,7 @@
 import React from "react";
 import Social from "./Social/Social";
 import ColorContainer from "../ColorContainer";
-import Subtitle from "../Subtitle";
+import Partners from "./Partners";
 import Title from "../Title";
 
 
@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <div>
             <ColorContainer color='black'>
-                <Subtitle color="white">Social pages of the best club</Subtitle>
+                <Partners />
                 <Social />
                 <Title color="white">#FINOALLAFINE</Title>
                 <div className="foot-part">

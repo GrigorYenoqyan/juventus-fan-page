@@ -1,16 +1,15 @@
 import React from "react";
-import ColorContainer from "../ColorContainer";
-import Subtitle from "../Subtitle";
+import Subtitle from "../../Subtitle";
 
-import adidas from "../../assets/images/adidas_grey.svg";
-import jeep from "../../assets/images/jeep_grey.svg";
-import cygames from "../../assets/images/cygames_grey.svg";
+import adidas from "../../../assets/images/adidas_grey.svg";
+import jeep from "../../../assets/images/jeep_grey.svg";
+import cygames from "../../../assets/images/cygames_grey.svg";
 
 import "./Partners.css";
 
 const PartnersContainer = () => {
     return (
-        <ColorContainer color="black">
+        <div>
             <Subtitle color="white">Partners</Subtitle>
             <div className="partners-container">
                 <div className="partner">
@@ -29,7 +28,7 @@ const PartnersContainer = () => {
                     </a>
                 </div>
             </div>
-        </ColorContainer>
+        </div>
     )
 }
 
