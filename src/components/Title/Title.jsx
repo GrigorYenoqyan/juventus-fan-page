@@ -5,7 +5,7 @@ import "./Title.css";
 
 const Title = ({ children, color }) => {
     return (
-        <h1 className={`${color}-title`}>{children}</h1>
+        <h2 className={`${color}-title`}>{children}</h2>
     )
 }
 
