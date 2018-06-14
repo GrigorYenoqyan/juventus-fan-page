@@ -1,27 +1,51 @@
-import React from "react";
+import React, { Component } from "react";
 import Match from "./Match";
 import Title from "../Title";
 import ColorContainer from "../ColorContainer";
 import PageContainer from '../PageContainer';
+import Loading from "../Loading/Loading";
 
 import "./Matches.css";
 
-import { matchesData } from "../../data.js";
 
-const Matches = () => {
-    const { fixtures: matches } = matchesData;
-    return (
-        <PageContainer>
-            <Title color="black">Matches</Title>
-            <ColorContainer color='white'>
-                <ul>
-                    {
-                        matches.map((match) => <Match match={match} key={match.date} />)
-                    }
-                </ul>
-            </ColorContainer>
-        </PageContainer>
-    )
+class Matches extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            matches: null,
+        }
+    }
+
+    componentDidMount() {
+        fetch("http://api.football-data.org/v1/teams/109/fixtures?season=2017", {
+            headers: { 'X-Auth-Token': 'e8c0c9dc59d94fb5b417e7527b98074b' },
+        })
+            .then(response => response.json())
+            .then((data) => {
+                this.setState({
+                    matches: data.fixtures,
+                })
+            })
+    }
+
+    render() {
+        const { matches } = this.state;
+        const length = matches ? matches.length : null;
+        return (
+            <PageContainer>
+                <Title color="black">Matches</Title>
+                <ColorContainer color='white'>
+                    <ul>
+                        {
+                            matches ?
+                                matches.map((match, i, arr) => <Match match={arr[length - i - 1]} key={match.date} />) :
+                                <Loading />
+                        }
+                    </ul>
+                </ColorContainer>
+            </PageContainer>
+        )
+    }
 }
 
-export default Matches;
+    export default Matches;
