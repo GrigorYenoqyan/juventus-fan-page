@@ -9,11 +9,9 @@ import Title from '../Title';
 const Stadium = () => {
     return (
         <PageContainer>
-            
                 <Title color='black'>
                     Stadium
                 </Title>
-            
             <ColorContainer color='white'>
                 <Slideshow images={stadium.images} />
                 <Descriprion color='black'>
