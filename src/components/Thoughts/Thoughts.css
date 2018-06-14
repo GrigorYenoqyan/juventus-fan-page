@@ -2,8 +2,6 @@
     font-size: 1.5rem;
     color: rgb(31, 28, 28);
     text-align: center;
-    opacity: 1;
-    transition: opacity .5s;
 }
 
 .author {
@@ -11,27 +9,38 @@
     font-weight: bold;
     color: rgb(31, 28, 28);
     text-align: center;
+}
+
+.shown {
     opacity: 1;
     transition: opacity .5s;
 }
 
-.text-hidden {
-    font-size: 1.5rem;
-    color: rgb(31, 28, 28);
-    text-align: center;
-    opacity: 0;
-    transition: opacity .5s;
-}
-
-.author-hidden {
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: rgb(31, 28, 28);
-    text-align: center;
+.hidden {
     opacity: 0;
     transition: opacity .5s;
 }
 
 .thoughts-container {
     min-height: 13rem;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 600px){
+    .text {
+        font-size: 1.2rem;
+    }
+    
+    .author {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .text {
+        font-size: 1rem;
+    }
+    
+    .author {
+        font-size: 0.8rem;
+    }
 }
