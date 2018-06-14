@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import HashtagImage from '../HashtagImage'
-import ContainerWhite from '../Containers/ContainerWhite';
-import Subtitle from '../Titles/Subtitle';
-import ArticleName from '../Titles/ArticleName';
+import Subtitle from '../Subtitle';
+import ArticleName from '../ArticleName';
 import Description from '../Description';
-import ContainerBlack from '../Containers/ContainerBlack';
-import Title from '../Titles/Title';
-import MainContainer from '../Containers/MainContainer';
+import ColorContainer from '../ColorContainer';
+import Title from '../Title';
+import PageContainer from '../PageContainer';
+
 import { historyData } from '../../data.js';
 import './History.css';
 
@@ -14,38 +14,22 @@ class History extends Component {
 
     historyContent() {
         const result = historyData.map((el, index) => {
+            const even = index % 2 === 0;
             return (
-                index % 2 === 0 ?
-                    <ContainerWhite key={el.articleName}>
-                        {<div>
-                            <Subtitle color={'black'}>
-                                {el.date}
-                            </Subtitle>
+                <ColorContainer color={even ? 'white' : 'black'} key={el.articleName}>
+                    {<div>
+                        <Subtitle color={even ? 'black' : 'white'}>
+                            {el.date}
+                        </Subtitle>
 
-                            <ArticleName color={'black'}>
-                                {el.articleName}
-                            </ArticleName>
+                        <ArticleName color={even ? 'black' : 'white'}>
+                            {el.articleName}
+                        </ArticleName>
 
-                            <Description  color='black'>{el.text}</Description>
-                        </div>
-                        }
-                    </ContainerWhite>
-                    :
-                    <ContainerBlack key={el.articleName}>
-                        {
-                            <div>
-                                <Subtitle color={'white'}>
-                                    {el.date}
-                                </Subtitle>
-
-                                <ArticleName color={'white'}>
-                                    {el.articleName}
-                                </ArticleName>
-
-                                <Description color='white'>{el.text}</Description>
-                            </div>
-                        }
-                    </ContainerBlack>
+                        <Description color={even ? 'black' : 'white'}>{el.text}</Description>
+                    </div>
+                    }
+                </ColorContainer>
             )
         })
 
@@ -54,15 +38,15 @@ class History extends Component {
 
     render() {
         return (
-            <MainContainer>
+            <PageContainer>
                 <HashtagImage />
-                <ContainerWhite>
+                <ColorContainer color='white'>
                     <Title color='black'>
                         History
                     </Title>
-                </ContainerWhite>
+                </ColorContainer>
                 {this.historyContent()}
-            </MainContainer>
+            </PageContainer>
         )
     }
 }

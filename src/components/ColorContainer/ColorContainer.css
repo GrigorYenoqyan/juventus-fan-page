@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    padding: 3% 0;
+}
+
+.container-center {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.black {
+    color: #fff;
+    background: #000;
+}
+
+.white {
+    color: #9a9a9a;
+    background: #fff;
+}

@@ -1,0 +1,8 @@
+.loading {
+    position: relative;
+    padding-top: 17vh;
+    width:100%;
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+}

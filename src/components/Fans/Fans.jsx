@@ -1,34 +1,33 @@
 import React from 'react';
 import HashtagImage from '../HashtagImage'
-import { fansData } from '../../data.js';
-import './Fans.css';
-import ContainerWhite from '../Containers/ContainerWhite';
-import Title from '../Titles/Title';
-import ContainerBlack from '../Containers/ContainerBlack';
+import Title from '../Title';
+import ColorContainer from '../ColorContainer';
 import Description from '../Description';
-import MainContainer from '../Containers/MainContainer';
+import PageContainer from '../PageContainer';
+import './Fans.css';
+import { fansData } from '../../data.js';
 
 const Fans = () => {
     return (
-        <MainContainer>
+        <PageContainer>
             <HashtagImage />
 
-            <ContainerWhite>
+            <ColorContainer color='white'>
                 <Title color='black'>
                     Fans
                 </Title>
-            </ContainerWhite>
+            </ColorContainer>
 
-            <ContainerWhite>
+            <ColorContainer color='white'>
                 <img src={fansData.image} alt='fansImage' className='fans-image' />
-            </ContainerWhite>
+            </ColorContainer>
 
-            <ContainerBlack>
-                <Description color='white' >
+            <ColorContainer color='white'>
+                <Description color='black' >
                     {fansData.text}
                 </Description>
-            </ContainerBlack>
-        </MainContainer>
+            </ColorContainer>
+        </PageContainer>
     )
 }
 
