@@ -2,17 +2,9 @@ import React, { Component } from 'react';
 import './Header.css';
 import { NavLink } from 'react-router-dom';
 
+import logo from "../../assets/images/logo-j1.png";
+
 class Header extends Component {
-
-    // teamPopup(e) {
-    //     e.stopPropagation();
-    //     e.target.lastChild.style = 'display: inline;'
-    // }
-
-    // teamPopupHide(e) {
-    //     e.stopPropagation();
-    //     e.currentTarget.style = 'display: none;'
-    // }
 
     render() {
         return (
@@ -24,7 +16,7 @@ class Header extends Component {
                                 className='logo-link'
                                 to='/home'
                             >
-                                <img src="./images/logo-j1.png" alt="" className="header-logo" />
+                                <img src={logo} alt="" className="header-logo" />
                             </NavLink>
                         </li>
                         <li className='listItems'>

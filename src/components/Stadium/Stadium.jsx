@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ContainerBlack from "../Containers/ContainerBlack";
 
-import { stadium } from "../../data.js";
+import { stadiumData as stadium } from "../../data.js";
 
 import "./Stadium.css";
 
@@ -18,11 +18,6 @@ class Stadium extends Component {
         }
     }
 
-    componentDidMount() {
-        // setTimeout(() => {
-        //     document.getElementsByClassName("right")[0].style.opacity = "1";
-        // },500)
-    }
     slideRight = () => {
 
         this.setState({
@@ -32,26 +27,6 @@ class Stadium extends Component {
         })
 
 
-        // document.getElementsByClassName("left")[0].classList.add("center");
-        // document.getElementsByClassName("left")[0].classList.remove("left");
-        
-        // document.getElementsByClassName("center")[1].classList.add("right");
-        // document.getElementsByClassName("center")[1].classList.remove("center");
-
-        // document.getElementsByClassName("right")[1].classList.add("left");
-        // document.getElementsByClassName("right")[1].classList.remove("right");
-
-
-        // this.setState({
-        //     left: "center",
-        //     center: "right",
-        // })
-        // setTimeout(() => {
-        //     this.setState({
-        //         left: "left",
-        //         center: "center",
-        //     })
-        // }, 1100)
     }
 
     slideLeft = () => {

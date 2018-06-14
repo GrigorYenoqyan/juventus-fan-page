@@ -4,7 +4,7 @@ import ContainerBlack from "../Containers/ContainerBlack";
 import Title from "../Titles/Title";
 import "./News.css";
 import MainContainer from '../Containers/MainContainer';
-import { news } from "../../data.js";
+import { newsData as news } from "../../data.js";
 import ArticleName from '../Titles/ArticleName';
 
 import Description from "../Description";

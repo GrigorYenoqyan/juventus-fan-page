@@ -8,6 +8,7 @@ import Slideshow from '../Slideshow';
 import Matches from '../Matches';
 import Fans from '../Fans';
 import Footer from '../Footer';
+import Partners from '../Partners';
 
 const Routes = () => {
     return (
@@ -21,6 +22,7 @@ const Routes = () => {
             <Route path='/matches' component={Matches} />
             <Route path='/history' component={History} />
             <Route path='/stadium' component={Slideshow} />
+            <Route path='/' component={Partners} />
             <Route path='/' component={Footer} />
         </div>
     )

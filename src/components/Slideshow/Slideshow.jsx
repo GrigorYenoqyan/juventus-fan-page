@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Slideshow.css';
-import { stadium } from '../../data';
+import { stadiumData as stadium } from '../../data';
 import ContainerWhite from '../Containers/ContainerWhite';
 
 class Slideshow extends Component {

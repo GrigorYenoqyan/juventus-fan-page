@@ -3,7 +3,7 @@ import ContainerWhite from "../Containers/ContainerWhite";
 import Subtitle from "../Titles/Subtitle";
 import Trophy from "./Trophy";
 
-import { trophies } from "../../data.js";
+import { trophiesData as trophies } from "../../data.js";
 
 import "./TrophySection.css";
 
