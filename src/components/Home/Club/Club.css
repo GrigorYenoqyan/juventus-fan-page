@@ -1,0 +1,46 @@
+.club-content-container {
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.club-image-container {
+    width: 350px;
+    height: 200px;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.black-club-block {
+    background-color: black;
+    position: absolute;
+    height: 100px;
+    width: 350px;
+    top: 75%;
+}
+
+.black-club-block-text {
+    color: aliceblue;
+    font: 2rem bold;
+    text-align: center;
+}
+
+.club-image {
+    width: 350px;
+    height: auto;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+.club-image:hover {
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-filter:  blur(2px);
+	filter:  blur(2px);
+}
