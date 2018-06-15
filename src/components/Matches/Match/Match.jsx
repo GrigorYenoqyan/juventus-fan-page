@@ -5,7 +5,7 @@ import "./Match.css";
 
 
 class Match extends Component {
-    
+
     returnDate = (date) => {
         return new Date(Date.parse(date));
     }
@@ -25,21 +25,34 @@ class Match extends Component {
         const fullMinutes = minutes < 10 ? `0${minutes}` : minutes;
         return `${fullHours}:${fullMinutes}`;
     }
+    getLogoName = (name) => {
+        return name.split(" ").join("-");
+    }
+
 
     render() {
         const { match } = this.props;
         const fullDate = this.returnDate(match.date);
         return (
             <div>
-                {
-                    <div className="sepatator"></div>
-                }
                 <li className="match">
                     <span className="date">{this.getFullDate(fullDate)}</span>
                     <span className="time">{this.getFullTime(fullDate)}</span>
                     <span className="home-team">{match.homeTeamName}</span>
+                    <span className="home-logo">
+                        <img
+                            src={`./images/${this.getLogoName(match.homeTeamName)}.svg`}
+                            alt=""
+                        />
+                    </span>
                     <span className="result">
                         {`${match.result.goalsHomeTeam} - ${match.result.goalsAwayTeam}`}
+                    </span>
+                    <span className="away-logo">
+                        <img
+                            src={`./images/${this.getLogoName(match.awayTeamName)}.svg`}
+                            alt=""
+                        />
                     </span>
                     <span className="away-team">{match.awayTeamName}</span>
                 </li>

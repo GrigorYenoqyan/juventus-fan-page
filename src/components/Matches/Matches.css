@@ -1,3 +1,11 @@
 .matches-container {
     background: black;
 }
+
+.champion-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.champion-container > img {
+    width:100%;
+}
