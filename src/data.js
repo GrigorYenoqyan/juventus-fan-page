@@ -26,13 +26,18 @@ import stadium3 from "./assets/images/003.jpg";
 import stadium4 from "./assets/images/004.jpg";
 
 import hashtag from "./assets/images/hashtagImg.png";
+import clubHashtag from './assets/images/club_hashtag.jpg';
 
 import nedved from "./assets/images/Nedved11a_batchedit.jpg";
 import matuidi from "./assets/images/matuidi01.jpg";
 import marcizio from "./assets/images/IMG_3120.JPG";
 import coppe from "./assets/images/coppe01.jpg";
 
-import fans from './assets/images/fan_1.jpg'
+import fans from './assets/images/fan_1.jpg';
+import clubFan from './assets/images/fan_title.jpg';
+import clubStadium from './assets/images/club_stadium.jpg';
+import clubHistory from './assets/images/club_history.jpg';
+
 
 export const trophiesData = [
     {
@@ -141,8 +146,14 @@ export const newsData = [
 
 
 export const hashtagImageData = {
-    image: hashtag,
-    hashtag: '#FINOALLAFINE'
+    fansHistory: {
+      image: hashtag,
+    text: '#FINOALLAFINE'
+    },
+    club: {
+      image: clubHashtag,
+    text: 'JUVENTUS FOOTBALL CLUB'
+    }
 }
 
 export const fansData = {
@@ -212,9 +223,11 @@ export const stadiumData = {
     text: "Allianz Stadium is the new name of Juventus' home ground after the club signed a naming rights agreement with Allianz and Lagardère Sports, holders of the facility’s naming rights. Starting on 1 July 2017, the stadium will be known as the Allianz Stadium of Turin for six seasons until 30 June 2023, joining the Allianz Family of Stadiums first created in 2005 which features Munich’s Allianz Arena, Sydney’s Allianz Stadium, Allianz Park in London, Nice’s Allianz Riviera, Allianz Parque in Sao Paulo and Allianz Stadion in Vienna. “It’s with great pleasure that we welcome Allianz into our family of partners for a deal as special as this one – the naming of our home,” declared Giorgio Ricci, Co-Chief Revenue Officer and Head of Global Partnerships and Corporate Revenues at Juventus. “The arrival of a global giant in the insurance sector such as Allianz is further testament to how Juventus has established itself as a first-class international institution, whilst enriching a stadium that has played a significant role, since its inauguration in 2011, to creating history with six legendary Scudetto titles celebrated within its walls. “Our ambition and objective is to collaborate with Allianz for the benefit of our supporters, just as with the other partners who have helped transform the stadium into a theatre, ensuring that each match is a show of entertainment and a welcoming place for families.”Thanks to the naming rights agreement, once clearance has been given, Allianz will be able to personalise the facility with signage reading “Allianz Stadium” on the north-east and south-east corners of the facility, as well as the main entrance and signage inside the ground. The Allianz Stadium logo will be visible inside the stadium, on the north, south and east sides of the ground for television broadcasts, as well as on a number of other entry and access points to the stands. Sergio Balbinot, member of the Board of Management of Allianz SE, with responsibility over Italy, West & Southern Europe, the Middle East and Africa, declared: “As Allianz we are particularly satisfied with the partnership around this wonderful stadium, which is one of the established hubs of world soccer. In this structure, unique in Italy, Juventus, a team that can boast an extraordinary series of successes and primary international visibility, plays against all the most important Italian and foreign teams, which are followed, live in the stadium and live on tv, by millions of fans from all over the world. Allianz, on its part, is a major global player in the insurance and asset management business, with over 86 million clients in more than 70 countries and a well-recognized and highly regarded brand. The Allianz Stadium in Turin, therefore, is the natural meeting point between such a structure of excellence and a brand like Allianz”.Opened on 8 September 2011, Juventus Stadium was built according to cutting-edge building standards with an emphasis on energy saving. It was created to guarantee spectators a unique experience thanks to the proximity of the pitch, which is just 7.5m from the front row, and an excellent view from all sides of the stadium. It also features 110,000m2 of support service, commercial and entertainment areas. The facility is fully covered and has a capacity in excess of 41,500 seats, which include 4,000 premium seats, 62 sky boxes and eight business areas. Juventus Museum, 31 bars and restaurants, two children’s play areas, 10 Juventus Stores and 4,000 car parking spaces complete the range of services on offer to the general public. “We are very proud to have reached this agreement between two such prestigious international brands in Juventus and Allianz,” added Lagardère Sports and Entertainment CEO Andrew Georgiou. “As a result, Allianz will be able to move closer to millions of Juve fans around the world.”  Since it opened, more than six million people have enjoyed the Juventus Stadium experience: the club has recorded 99 sell-outs from 114 Serie A matches across six years, with 96.7% of total capacity filled. In all competitions, the stadium has been sold out 130 times in 156 matches, a rate of 83%. This season, every single home match has been a sell-out. The stadium is open seven days a week, which has allowed more than 883,000 visitors to experience the museum and stadium tours – 166,750 last season alone.",
 }
 
-
-
-
+export const clubData = {
+  clubFan: clubFan,
+  clubStadium: clubStadium,
+  clubHistory: clubHistory
+}
 
 export const matchesData = {
 

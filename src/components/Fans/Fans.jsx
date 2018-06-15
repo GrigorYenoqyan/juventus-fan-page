@@ -5,16 +5,16 @@ import ColorContainer from '../ColorContainer';
 import Description from '../Description';
 import PageContainer from '../PageContainer';
 import './Fans.css';
-import { fansData } from '../../data.js';
+import { fansData, hashtagImageData } from '../../data.js';
 
 const Fans = () => {
     return (
         <PageContainer>
-            <HashtagImage />
+            <HashtagImage data={hashtagImageData.fansHistory} />
 
             <ColorContainer color='white'>
                 <Title color='black'>
-                    Fans
+                    THE FANS
                 </Title>
             </ColorContainer>
 

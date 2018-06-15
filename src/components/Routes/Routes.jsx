@@ -9,6 +9,7 @@ import Fans from '../Fans';
 import Footer from '../Footer';
 import Partners from '../Partners';
 import Stadium from '../Stadium';
+import Club from '../Club';
 
 const Routes = () => {
     return (
@@ -17,11 +18,11 @@ const Routes = () => {
             <Route exact path="/" render={() => <Redirect to='/home'/>} />
             <Route path='/home' component={Home} />            
             <Route path='/news' component={News} />
-            <Route path='/creators' component={Header} />
-            <Route path='/fans' component={Fans} />
+            <Route exact path='/club' component={Club} />            
+            <Route path='/club/fans' component={Fans} />
             <Route path='/matches' component={Matches} />
-            <Route path='/history' component={History} />
-            <Route path='/stadium' component={Stadium} />
+            <Route path='/club/history' component={History} />
+            <Route path='/club/stadium' component={Stadium} />
             <Route path='/' component={Partners} />
             <Route path='/' component={Footer} />
         </div>

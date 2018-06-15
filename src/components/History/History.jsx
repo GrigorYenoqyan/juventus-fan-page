@@ -7,7 +7,7 @@ import ColorContainer from '../ColorContainer';
 import Title from '../Title';
 import PageContainer from '../PageContainer';
 
-import { historyData } from '../../data.js';
+import { historyData, hashtagImageData } from '../../data.js';
 import './History.css';
 
 class History extends Component {
@@ -39,10 +39,10 @@ class History extends Component {
     render() {
         return (
             <PageContainer>
-                <HashtagImage />
+                <HashtagImage data={hashtagImageData.fansHistory} />
                 <ColorContainer color='white'>
                     <Title color='black'>
-                        History
+                        HISTORY
                     </Title>
                 </ColorContainer>
                 {this.historyContent()}

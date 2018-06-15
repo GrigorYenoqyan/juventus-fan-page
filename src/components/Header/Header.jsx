@@ -50,33 +50,15 @@ class Header extends Component {
                                 CREATORS
                             </NavLink>
                         </li>
-                        <li className='listItems team-link'>
+                        <li className='listItems'>
                             <NavLink
-                                className='listItemsLinks team'
-                                to="#"
+                                className='listItemsLinks'
+                                to='/club'
+                                activeClassName='listItemsLinks-selected'
+                                isActive={window.scrollTo(0, 0)}
                             >
-                                TEAM
-                            </NavLink>
-                            <ul className='team-ul'>
-                                <li className='team-popup-li'>
-                                    <NavLink
-                                        className=''
-                                        to='/players'
-                                        isActive={window.scrollTo(0, 0)}
-                                    >
-                                        Players
-                                        </NavLink>
-                                </li>
-                                <li className='listItems team-popup-li'>
-                                    <NavLink
-                                        className=''
-                                        to='/fans'
-                                        isActive={window.scrollTo(0, 0)}
-                                    >
-                                        Fans
-                                        </NavLink>
-                                </li>
-                            </ul>
+                                CLUB
+                    </NavLink>
                         </li>
                         <li className='listItems'>
                             <NavLink
@@ -91,21 +73,11 @@ class Header extends Component {
                         <li className='listItems'>
                             <NavLink
                                 className='listItemsLinks'
-                                to='/history'
+                                to='#'
                                 activeClassName='listItemsLinks-selected'
                                 isActive={window.scrollTo(0, 0)}
                             >
-                                HISTORY
-                    </NavLink>
-                        </li>
-                        <li className='listItems'>
-                            <NavLink
-                                className='listItemsLinks'
-                                to='/stadium'
-                                activeClassName='listItemsLinks-selected'
-                                isActive={window.scrollTo(0, 0)}
-                            >
-                                STADIUM
+                                PLAYERS
                     </NavLink>
                         </li>
                     </ul>

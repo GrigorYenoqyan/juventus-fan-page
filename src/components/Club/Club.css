@@ -1,0 +1,30 @@
+.club-content-container {
+    display: inline-block;
+}
+
+.club-image-container {
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.club-image {
+    width: 350px;
+    height: auto;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+.club-image:hover {
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-filter:  blur(2px);
+	filter:  blur(2px);
+}
