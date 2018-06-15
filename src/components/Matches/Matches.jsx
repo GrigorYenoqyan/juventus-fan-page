@@ -3,7 +3,7 @@ import Match from "./Match";
 import Title from "../Title";
 import ColorContainer from "../ColorContainer";
 import PageContainer from '../PageContainer';
-import Loading from "../Loading/Loading";
+import Loading from "../Loading";
 
 import "./Matches.css";
 
@@ -35,6 +35,9 @@ class Matches extends Component {
             <PageContainer>
                 <Title color="black">Matches</Title>
                 <ColorContainer color='white'>
+                    {/* <p className="champion-container">
+                        <img src="./images/my7th.jpg" alt="" />
+                    </p> */}
                     <ul>
                         {
                             matches ?
@@ -48,4 +51,4 @@ class Matches extends Component {
     }
 }
 
-    export default Matches;
+export default Matches;
