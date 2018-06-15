@@ -9,6 +9,7 @@ const Home = () => {
     return (
         <PageContainer>
             <Thoughts />
+            <Club />
             <TrophySection />
             <LastMatch />
         </PageContainer>

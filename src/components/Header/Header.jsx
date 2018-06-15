@@ -43,40 +43,12 @@ class Header extends Component {
                         <li className='listItems'>
                             <NavLink
                                 className='listItemsLinks'
-                                to='/creators'
+                                to='/players'
                                 activeClassName='listItemsLinks-selected'
                                 isActive={window.scrollTo(0, 0)}
                             >
-                                CREATORS
+                                PLAYERS
                             </NavLink>
-                        </li>
-                        <li className='listItems team-link'>
-                            <NavLink
-                                className='listItemsLinks team'
-                                to="#"
-                            >
-                                TEAM
-                            </NavLink>
-                            <ul className='team-ul'>
-                                <li className='team-popup-li'>
-                                    <NavLink
-                                        className=''
-                                        to='/players'
-                                        isActive={window.scrollTo(0, 0)}
-                                    >
-                                        Players
-                                        </NavLink>
-                                </li>
-                                <li className='listItems team-popup-li'>
-                                    <NavLink
-                                        className=''
-                                        to='/fans'
-                                        isActive={window.scrollTo(0, 0)}
-                                    >
-                                        Fans
-                                        </NavLink>
-                                </li>
-                            </ul>
                         </li>
                         <li className='listItems'>
                             <NavLink
@@ -86,7 +58,17 @@ class Header extends Component {
                                 isActive={window.scrollTo(0, 0)}
                             >
                                 MATCHES
-                    </NavLink>
+                            </NavLink>
+                        </li>
+                        <li className='listItems'>
+                            <NavLink
+                                className='listItemsLinks'
+                                to='/fans'
+                                activeClassName='listItemsLinks-selected'
+                                isActive={window.scrollTo(0, 0)}
+                            >
+                                FANS
+                            </NavLink>
                         </li>
                         <li className='listItems'>
                             <NavLink
