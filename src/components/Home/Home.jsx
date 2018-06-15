@@ -3,7 +3,7 @@ import Thoughts from '../Thoughts';
 import TrophySection from '../TrophySection';
 import PageContainer from '../PageContainer';
 import './Home.css';
-import Club from './Club';
+import LastMatch from '../LastMatch';
 
 const Home = () => {
     return (
@@ -11,6 +11,7 @@ const Home = () => {
             <Thoughts />
             <Club />
             <TrophySection />
+            <LastMatch />
         </PageContainer>
     )
 }
