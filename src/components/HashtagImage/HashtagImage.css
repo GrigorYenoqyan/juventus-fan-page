@@ -1,0 +1,21 @@
+.hashtag {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 9.3vw;
+    color: #fdc600;
+    text-shadow:5px 5px 10px black;
+}
+.hashtag-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.hashtag-image-block {
+    position: relative;
+    width: 100%;
+    color: #fff;
+    background: #000;
+}

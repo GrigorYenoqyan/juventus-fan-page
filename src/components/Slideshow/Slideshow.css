@@ -1,0 +1,27 @@
+.slideshow {
+    overflow: hidden;
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.452);
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    flex-flow: nowrap row;
+}
+
+.slide-wrapper {
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+    height: 510px;
+    width: 700px;
+}
+
+.slideshow-image {
+    height: 510px;
+    width: 700px;
+}
