@@ -1,9 +1,9 @@
 .slide {
-    height: 510px;
-    width: 700px;
+    height: auto;
+    width: 100%;
 }
 
 .slideshow-image {
-    height: 510px;
-    width: 700px;
+    height: auto;
+    width: 100%;
 }
