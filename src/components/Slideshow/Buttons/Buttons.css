@@ -1,17 +1,29 @@
 .right {
     position: absolute;
-    top: 230px;
-    left: 630px;
+    top: 40%;
+    right: 30px;
 }
 
 .left {
     position: absolute;
-    top: 230px;
+    top: 40%;
     left: 30px;
 }
 
 .slideshow-icon {
-    color: rgba(40, 41, 40, 0.623);
+    color: rgba(40, 41, 40, 0.822);
     font-size: 7em;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+    .slideshow-icon {
+        font-size: 6em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .slideshow-icon {
+        font-size: 5em;
+    }
 }
