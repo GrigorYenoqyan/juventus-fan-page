@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import "./Player.css";
 
@@ -16,5 +17,9 @@ const Player = ({ player }) => (
         </div>
     </div>
 )
+
+Player.propTypes = {
+    player: PropTypes.object.isRequired,
+}
 
 export default Player;
