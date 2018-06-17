@@ -15,7 +15,7 @@
     margin-top: 4%;
 }
 
-.players-switcher > li {
+.position {
     color: #636363;
     font-size: 1rem;
     cursor: pointer;
@@ -26,11 +26,14 @@
 }
 
 
-.players-switcher > li:hover {
+.position:hover {
     color: #000;
     border-bottom: 2px solid #000;
 }
-
+.active-position{
+    color: #000;
+    border-bottom: 2px solid #000;
+}
 
 @media only screen and (max-width: 600px) {
     .players-switcher {

@@ -155,6 +155,10 @@ export const newsData = [
 ]
 
 
+export const teamPositions = ["goalkeeper", "defender", "midfielder", "forward"];
+
+
+
 export const hashtagImageData = {
   image: hashtag,
   hashtag: '#FINOALLAFINE'
