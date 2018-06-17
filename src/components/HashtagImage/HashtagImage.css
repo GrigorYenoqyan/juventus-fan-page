@@ -6,7 +6,8 @@
     text-align: center;
     font-size: 9.3vw;
     color: #fdc600;
-    text-shadow:5px 5px 10px black;
+    text-shadow: 3px 3px 0 #000, 3px 3px 10px #000;
+    font-family: inherit;
 }
 .hashtag-image {
     width: 100%;
@@ -19,3 +20,4 @@
     color: #fff;
     background: #000;
 }
+

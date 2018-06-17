@@ -1,17 +1,16 @@
 import React from 'react';
-import { hashtagImageData } from '../../data.js';
 import './HashtagImage.css';
 
-const HashtagImage = () => {
+const HashtagImage = ({ data }) => {
     return (
         <div className='hashtag-image-block'>
-            <img src={hashtagImageData.image}
+            <img src={data.hashtagImage}
              alt='hashtagImage'
              className='hashtag-image'
              />
 
             <span className='hashtag'>
-                {hashtagImageData.hashtag}
+                {data.text}
             </span>
         </div>
     )

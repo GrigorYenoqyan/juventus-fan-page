@@ -10,7 +10,7 @@ const Club = () => {
         <div>
             <ColorContainer color='white'>
                 <Subtitle color='black' >
-                    THE CLUB
+                    The club
                 </Subtitle>
             </ColorContainer>
             <div>
