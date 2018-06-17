@@ -8,15 +8,18 @@ import './History.css';
 class History extends Component {
 
     historyContentRow() {
-        return historyData.map((el) => {
-            return (
-                <div className='content-row' key={el[0].date}>
-                    <HistoryContentBlock el={el[0]} />
-                    <HistoryContentBlock el={el[1]} />
+        const result = [];
+        for (let i = 0; i < historyData.length; i += 2) {
+
+            result.push(
+                <div className='content-row' key={historyData[i].date}>
+                    <HistoryContentBlock el={historyData[i]} />
+                    <HistoryContentBlock el={historyData[i + 1]} />
                 </div>
             )
+
         }
-        )
+        return result;
     }
 
     render() {
