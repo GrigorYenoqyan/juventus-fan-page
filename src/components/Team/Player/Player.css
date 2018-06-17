@@ -1,0 +1,72 @@
+.player-container {
+    position: relative;
+    width: 23%;
+    padding-top: 1%;
+    /* border: 1px solid green; */
+    /* height: 20rem; */
+    margin: 1% 0;
+}
+.player-image {
+    position: relative;
+    height: 70%;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+.player-image:hover > img{
+    transform: scale(1.1, 1.1);
+}
+
+
+.player-image > img {
+    width: 100%;
+    transition: all 0.4s;
+}
+
+
+
+.player-name {
+    height: 25%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 0 1%;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.player-number {
+    position: absolute;
+    background: #fff;
+    background-image: url(../../../assets/images/kreis_element.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 4rem;
+    height: 4rem;
+    /* width: 20%;
+    padding-top: 20%; */
+    border-radius: 50%;
+    top: 45%;
+    right: 0;
+    font-size: 2rem;
+    color: #000;
+    line-height: 4rem;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .player-number {
+        top: 40%;
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .player-name {
+        height: 25%;
+        margin-top: 5%;
+        text-align: center;
+        padding: 0 1%;
+        font-size: 0.4rem;
+        color: #000;
+    }
+}

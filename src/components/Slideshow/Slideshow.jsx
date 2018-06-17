@@ -66,7 +66,7 @@ class Slideshow extends Component {
                     </div>
                 <Buttons rightSlide={() => this.rightSlide(true)} leftSlide={() => this.leftSlide()} />
                 </div>
-        
+            
         )
     }
 }

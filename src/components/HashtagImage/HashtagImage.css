@@ -9,7 +9,7 @@
     text-shadow:5px 5px 10px black;
 }
 .hashtag-image {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
