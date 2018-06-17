@@ -29,6 +29,7 @@
     text-align: center;
     text-decoration: none;
     line-height: 3rem;
+    border-bottom: 2px solid black;
     transition: all 0.4s;
 }
 

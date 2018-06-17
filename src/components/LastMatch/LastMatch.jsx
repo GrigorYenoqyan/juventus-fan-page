@@ -15,17 +15,25 @@ class LastMatch extends Component {
     }
 
     componentDidMount() {
+        this.isFetching = true;
         fetch("http://api.football-data.org/v1/teams/109/fixtures?season=2017", {
             headers: { 'X-Auth-Token': 'e8c0c9dc59d94fb5b417e7527b98074b' },
         })
             .then(response => response.json())
             .then((data) => {
-                const lastMatch = data.fixtures[data.fixtures.length - 1];
-                this.setState({
-                    data: lastMatch,
-                })
+                if (this.isFetching) {
+                    const lastMatch = data.fixtures[data.fixtures.length - 1];
+                    this.setState({
+                        data: lastMatch,
+                    })
+                }
             })
     }
+
+    componentWillUnmount() {
+        this.isFetching = false;
+    }
+
     returnDate = (date) => {
         return new Date(Date.parse(date));
     }
@@ -57,8 +65,8 @@ class LastMatch extends Component {
 
                                 <span className="home-team-name">{data.homeTeamName}</span>
                                 <span className="home-team-logo">
-                                    <img 
-                                        src={`./images/${this.getLogoName(data.homeTeamName)}.svg`} 
+                                    <img
+                                        src={`./images/${this.getLogoName(data.homeTeamName)}.svg`}
                                         alt=""
                                     />
                                 </span>
@@ -66,8 +74,8 @@ class LastMatch extends Component {
                                     {`${data.result.goalsHomeTeam} : ${data.result.goalsAwayTeam}`}
                                 </span>
                                 <span className="away-team-logo">
-                                    <img 
-                                        src={`./images/${this.getLogoName(data.awayTeamName)}.svg`} 
+                                    <img
+                                        src={`./images/${this.getLogoName(data.awayTeamName)}.svg`}
                                         alt=""
                                     />
                                 </span>
