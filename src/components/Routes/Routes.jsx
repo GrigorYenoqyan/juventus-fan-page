@@ -25,36 +25,11 @@ const Routes = () => {
             <Route exact path='/history' component={History} />
             <Route path='/matches' component={Matches} />
             <Route path='/stadium' component={Stadium} />
-            <Route exact path='/history/1897-1971' render={() => <ArticlePage
-                title={historyData[0][0].articleName}
-                subtitle={historyData[0][0].quete}
-                text={historyData[0][0].text}
-            />} />
-            <Route exact path='/history/1971-1989' render={() => <ArticlePage
-                title={historyData[0][1].articleName}
-                subtitle={historyData[0][1].quete}
-                text={historyData[0][1].text}
-            />} />
-            <Route exact path='/history/1990-2004' render={() => <ArticlePage
-                title={historyData[1][0].articleName}
-                subtitle={historyData[1][0].quete}
-                text={historyData[1][0].text}
-            />} />
-            <Route exact path='/history/2004-2010' render={() => <ArticlePage
-                title={historyData[1][1].articleName}
-                subtitle={historyData[1][1].quete}
-                text={historyData[1][1].text}
-            />} />
-            <Route exact path='/history/2010-2015' render={() => <ArticlePage
-                title={historyData[2][0].articleName}
-                subtitle={historyData[2][0].quete}
-                text={historyData[2][0].text}
-            />} />
-            <Route exact path='/history/2015-2017' render={() => <ArticlePage
-                title={historyData[2][1].articleName}
-                subtitle={historyData[2][1].quete}
-                text={historyData[2][1].text}
-            />} />
+            <Route path='/history/:date' render={(props) => {
+                const data = historyData.find((el) => el.date === props.match.params.date);
+                return (<ArticlePage data={data} />)
+            }
+            } />
             <Route path='/' component={Footer} />
         </div>
     )
