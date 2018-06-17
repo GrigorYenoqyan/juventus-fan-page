@@ -36,25 +36,25 @@ class Match extends Component {
         return (
             <div>
                 <li className="match">
-                    <span className="date">{this.getFullDate(fullDate)}</span>
-                    <span className="time">{this.getFullTime(fullDate)}</span>
-                    <span className="home-team">{match.homeTeamName}</span>
-                    <span className="home-logo">
+                    <span className="match-span date">{this.getFullDate(fullDate)}</span>
+                    <span className="match-span time">{this.getFullTime(fullDate)}</span>
+                    <span className="match-span home-team">{match.homeTeamName}</span>
+                    <span className="match-span home-logo">
                         <img
                             src={`./images/${this.getLogoName(match.homeTeamName)}.svg`}
                             alt=""
                         />
                     </span>
-                    <span className="result">
+                    <span className="match-span result">
                         {`${match.result.goalsHomeTeam} - ${match.result.goalsAwayTeam}`}
                     </span>
-                    <span className="away-logo">
+                    <span className="match-span away-logo">
                         <img
                             src={`./images/${this.getLogoName(match.awayTeamName)}.svg`}
                             alt=""
                         />
                     </span>
-                    <span className="away-team">{match.awayTeamName}</span>
+                    <span className="match-span away-team">{match.awayTeamName}</span>
                 </li>
             </div>
         )
