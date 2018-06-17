@@ -4,24 +4,22 @@ import Title from '../Title';
 import ColorContainer from '../ColorContainer';
 import Description from '../Description';
 import PageContainer from '../PageContainer';
+import Slideshow from '../Slideshow';
 import './Fans.css';
-import { fansData } from '../../data.js';
+import { fansData, hashtagImageData } from '../../data.js';
 
 const Fans = () => {
     return (
         <PageContainer>
-            <HashtagImage />
-
+            <HashtagImage data={hashtagImageData.fans}/>
             <ColorContainer color='white'>
                 <Title color='black'>
                     Fans
                 </Title>
             </ColorContainer>
-
             <ColorContainer color='white'>
-                <img src={fansData.image} alt='fansImage' className='fans-image' />
+                <Slideshow images={fansData.images} />
             </ColorContainer>
-
             <ColorContainer color='white'>
                 <Description color='black' >
                     {fansData.text}

@@ -9,7 +9,7 @@ class Slideshow extends Component {
     }
 
     deployInterval() {
-        this.intervalID = setInterval(() => this.rightSlide(), 4000);
+        this.intervalID = setInterval(() => this.rightSlide(), 6000);
     }
 
     restartInterval() {

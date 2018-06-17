@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import HashtagImage from '../HashtagImage'
 import HistoryContentBlock from './HistoryContentBlock';
 import PageContainer from '../PageContainer';
-import { historyData } from '../../data.js';
+import { historyData, hashtagImageData } from '../../data.js';
 import './History.css';
 
 class History extends Component {
@@ -25,7 +25,7 @@ class History extends Component {
     render() {
         return (
             <PageContainer>
-                <HashtagImage />
+                <HashtagImage data={hashtagImageData.history}/>
                 {this.historyContentRow()}
             </PageContainer>
         )
