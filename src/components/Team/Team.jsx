@@ -62,6 +62,7 @@ class Team extends Component {
                     </ul>
                     <div className="team-container">
                         {
+                            
                             team ?
                                 part.map((player) => <Player player={player} key={player.name} />) :
                                 <Loading />
