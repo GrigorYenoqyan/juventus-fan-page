@@ -17,7 +17,7 @@ const News = () => (
             news.map((article, i) => {
                 const content = <NewsContent article={article} index={i} />;
                 return (
-                    <div key={article.id}>
+                    <div key={`block-row-${i}`}>
                         {
                             i % 2 ?
                                 <ColorContainer color='white'>
