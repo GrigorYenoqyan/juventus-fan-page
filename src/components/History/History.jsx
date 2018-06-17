@@ -1,29 +1,51 @@
 import React, { Component } from 'react';
 import HashtagImage from '../HashtagImage'
-import HistoryContentBlock from './HistoryContentBlock';
+import Subtitle from '../Subtitle';
+import ArticleName from '../ArticleName';
+import Description from '../Description';
+import ColorContainer from '../ColorContainer';
+import Title from '../Title';
 import PageContainer from '../PageContainer';
+
 import { historyData } from '../../data.js';
 import './History.css';
 
 class History extends Component {
 
-    historyContentRow() {
-        return historyData.map((el) => {
+    historyContent() {
+        const result = historyData.map((el, index) => {
+            const even = index % 2 === 0;
             return (
-                <div className='content-row' key={el[0].date}>
-                    <HistoryContentBlock el={el[0]} />
-                    <HistoryContentBlock el={el[1]} />
-                </div>
+                <ColorContainer color={even ? 'white' : 'black'} key={el.articleName}>
+                    {<div>
+                        <Subtitle color={even ? 'black' : 'white'}>
+                            {el.date}
+                        </Subtitle>
+
+                        <ArticleName color={even ? 'black' : 'white'}>
+                            {el.articleName}
+                        </ArticleName>
+
+                        <Description color={even ? 'black' : 'white'}>{el.text}</Description>
+                    </div>
+                    }
+                </ColorContainer>
             )
-        }
-        )
+        })
+
+        return result;
     }
 
     render() {
         return (
             <PageContainer>
                 <HashtagImage />
-                {this.historyContentRow()}
+                <ColorContainer color='white'>
+                    <Title color='black'>
+                        History
+                    </Title>
+                </ColorContainer>
+                {this.historyContent()}
             </PageContainer>
         )
     }
