@@ -52,3 +52,21 @@
     text-decoration: none;
     color: #9a9a9a;
 }
+
+
+@media only screen and (max-width: 1000px) {
+    .home-team-name, .away-team-name {
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 880px) {
+    .home-team-name, .away-team-name {
+        display: none;
+    }
+    .home-team-logo, .away-team-logo, .last-match-result {
+        width: 33%;
+    }
+    .see-all-matches-link {
+        font-size: 0.7rem;
+    }
+}
