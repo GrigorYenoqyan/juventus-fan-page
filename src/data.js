@@ -165,7 +165,7 @@ export const teamPositions = ["goalkeeper", "defender", "midfielder", "forward"]
 
 
 export const hashtagImageData = {
-  history: { hashtagImage: historyHashtag, text: 'JUVENTUS FOOTBALL CLUB'},
+  history: { hashtagImage: historyHashtag, text: 'The history of Juventus F.C.'},
   fans: {hashtagImage: fansHashtag, text: '#FINOALLAFINE'}
 }
 
