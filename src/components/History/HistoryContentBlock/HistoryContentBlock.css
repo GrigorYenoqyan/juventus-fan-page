@@ -24,13 +24,13 @@
 
 .article-name {
     color: black;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 .quete {
     color:rgb(0, 0, 0);
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .read-more {
@@ -40,10 +40,10 @@
     position: absolute;
     right: 0%;
     margin-top: 1%;
-    height: 29px;
+    height: auto;
     width: 123px;
-    font-size: 1.5rem;
-    padding-left: 4px;
+    font-size: 1.2rem;
+    padding-left: 2px;
 }
 
 .read-more:hover {

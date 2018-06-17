@@ -30,6 +30,7 @@
     text-decoration: none;
     line-height: 3rem;
     transition: all 0.4s;
+    border-bottom: 2px solid black;
 }
 
 .listItemsLinks:hover {
