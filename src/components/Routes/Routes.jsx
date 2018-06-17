@@ -6,6 +6,7 @@ import News from '../News';
 import History from '../History';
 import Matches from '../Matches';
 import Fans from '../Fans';
+import Team from '../Team';
 import Footer from '../Footer';
 import Stadium from '../Stadium';
 import ArticlePage from '../ArticlePage';
@@ -18,6 +19,7 @@ const Routes = () => {
             <Route exact path="/" render={() => <Redirect to='/home' />} />
             <Route path='/home' component={Home} />
             <Route path='/news' component={News} />
+            <Route path='/players' component={Team} />
             <Route path='/creators' component={Header} />
             <Route path='/fans' component={Fans} />
             <Route exact path='/history' component={History} />
