@@ -33,17 +33,19 @@
     font-size: 1rem;
 }
 
+.read-more-block {
+    text-align: right;
+}
+
 .read-more {
     text-decoration: none;
     background-color: black;
     color: white;
-    position: absolute;
     right: 0%;
     margin-top: 1%;
     height: auto;
-    width: 123px;
     font-size: 1.2rem;
-    padding-left: 2px;
+    padding: 0 2%;
 }
 
 .read-more:hover {
@@ -64,4 +66,17 @@
     padding: 4px 0;
     border-bottom: 1px solid #cdcdcd;
     text-align: right;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .content-row {
+        flex-direction: column;
+    }
+    .content-block {
+        width: 100%;
+    }
+    .read-more {
+        font-size: 1rem;
+    }
 }

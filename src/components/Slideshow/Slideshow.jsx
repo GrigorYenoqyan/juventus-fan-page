@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from "prop-types";
 import './Slideshow.css';
 import Buttons from './Buttons';
 import Slides from './Sldies';
@@ -69,6 +70,11 @@ class Slideshow extends Component {
         
         )
     }
+}
+
+
+Slideshow.propTypes= {
+    images: PropTypes.arrayOf(PropTypes.string).isRequired,
 }
 
 export default Slideshow;

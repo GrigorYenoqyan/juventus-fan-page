@@ -22,7 +22,7 @@ class LastMatch extends Component {
             .then(response => response.json())
             .then((data) => {
                 if (this.isFetching) {
-                    const lastMatch = data.fixtures[data.fixtures.length - 1];
+                    const lastMatch = data ? data.fixtures[data.fixtures.length - 1] : null;
                     this.setState({
                         data: lastMatch,
                     })

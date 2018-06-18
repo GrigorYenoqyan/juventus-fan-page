@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types";
 import ColorContainer from '../ColorContainer';
 import Subtitle from '../Subtitle';
 import Description from '../Description';
@@ -22,5 +23,14 @@ const ArticlePage = ({ data }) => {
         </PageContainer>
     )
 }
+
+ArticlePage.propTypes = {
+    data: PropTypes.shape({
+        title: PropTypes.string.isRequired,
+        subtitle: PropTypes.string.isRequired,
+        text: PropTypes.string.isRequired,
+    }).isRequired,
+}
+
 
 export default ArticlePage;
