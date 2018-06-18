@@ -74,9 +74,4 @@ class Team extends Component {
     }
 }
 
-// <li onClick={this.setPosition} data-position="keeper">GOALKEEPERS</li>
-//                         <li onClick={this.setPosition} data-position="defender">DEFENDERS</li>
-//                         <li onClick={this.setPosition} data-position="midfielder">MIDFIELDERS</li>
-//                         <li onClick={this.setPosition} data-position="forward">FORWARDS</li>
-
 export default Team;

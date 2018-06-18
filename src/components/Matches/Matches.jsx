@@ -44,9 +44,6 @@ class Matches extends Component {
             <PageContainer>
                 <Title color="black">Matches</Title>
                 <ColorContainer color='white'>
-                    {/* <p className="champion-container">
-                        <img src="./images/my7th.jpg" alt="" />
-                    </p> */}
                     <ul>
                         {
                             matches ?

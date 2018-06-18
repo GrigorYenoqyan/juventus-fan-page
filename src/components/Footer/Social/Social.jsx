@@ -1,8 +1,4 @@
 import React from "react";
-// import ContainerBlack from "../../Containers/ContainerBlack";
-// import Title from "../../Titles/Title"
-
-
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { socialIconsData as socialIcons } from "../../../data.js";
 

@@ -29,3 +29,13 @@
 .icon:hover > a{
     color: #fdc600;
 }
+
+@media only screen and (max-width: 800px) {
+    /* .icon{
+        width: 1.4rem;
+        height: 1.4rem;
+        font-size: 0.7rem;
+        line-height: 1.4rem;
+    } */
+
+}

@@ -8,7 +8,6 @@
 
 .club-image-container {
     width: 350px;
-    height: 200px;
     overflow: hidden;
     position: relative;
     float: left;
@@ -20,7 +19,7 @@
     position: absolute;
     height: auto;
     width: 100%;
-    top: 82%;
+    bottom: 0;
     left: 0%;
 }
 
@@ -53,5 +52,12 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .club-image-container {
+        margin:3%;
     }
 }

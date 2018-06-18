@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types";
 import './HashtagImage.css';
 
 const HashtagImage = ({ data }) => {
@@ -14,6 +15,14 @@ const HashtagImage = ({ data }) => {
             </span>
         </div>
     )
+}
+
+
+HashtagImage.propTypes = {
+    data: PropTypes.shape({
+        hashtagImage: PropTypes.string.isRequired,
+        text: PropTypes.string.isRequired,
+    }).isRequired,
 }
 
 export default HashtagImage;

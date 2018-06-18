@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types";
 import './HistoryContentBlock.css';
 import { Link } from 'react-router-dom';
 
@@ -31,6 +32,15 @@ const HistoryContentBlock = ({ el }) => {
             </div>
         </div>
     )
+}
+
+HistoryContentBlock.propTypes = {
+    el: PropTypes.shape({
+        date: PropTypes.string.isRequired,
+        title: PropTypes.string.isRequired,
+        image: PropTypes.string.isRequired,
+        subtitle: PropTypes.string.isRequired,
+    }).isRequired,
 }
 
 export default HistoryContentBlock;

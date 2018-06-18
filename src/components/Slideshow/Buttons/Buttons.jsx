@@ -1,12 +1,11 @@
 import React from 'react';
+import PropTypes from "prop-types";
 import { faAngleRight, faAngleLeft } from '@fortawesome/fontawesome-free-solid';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import './Buttons.css';
 
-const Buttons = (prop) => {
-    const { rightSlide, leftSlide } = prop;
-    return (
-        <div>
+const Buttons = ({ rightSlide, leftSlide }) => (
+    <div>
         <FontAwesomeIcon
             icon={faAngleRight}
             className='right slideshow-icon'
@@ -17,8 +16,13 @@ const Buttons = (prop) => {
             className='left slideshow-icon'
             onClick={leftSlide}
         />
-        </div>
-    )
+    </div>
+)
+
+
+Buttons.propTypes = {
+    rightSlide: PropTypes.func.isRequired,
+    leftSlide: PropTypes.func.isRequired,
 }
 
 export default Buttons;
