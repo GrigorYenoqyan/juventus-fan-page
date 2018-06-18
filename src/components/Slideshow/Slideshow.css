@@ -1,0 +1,15 @@
+.slideshow {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    flex-flow: nowrap row;
+}
+
+.slide-wrapper {
+    transition: transform 1s ease-in-out;
+}

@@ -1,0 +1,72 @@
+.last-match-container {
+    min-height: 10rem;
+    padding: 3% 0;
+}
+
+.last-match {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.last-match-loading {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #9a9a9a;
+    font-size: 3rem;
+    margin-top: 10%;
+}
+
+.home-team-name, .away-team-name {
+    width: 30%;
+    font-size: 2rem;
+    color: #000;
+}
+.home-team-logo, .away-team-logo {
+    width: 10%;
+
+}
+.home-team-logo .away-team-logo > img {
+    width: 100%;
+    height: 100%;
+} 
+
+.last-match-result {
+    width: 10%;
+    font-size: 2rem;
+}
+
+.last-match-date {
+    text-align: center;
+    padding: 2%;
+}
+
+.see-all-matches {
+    text-align: right;
+}
+
+.see-all-matches-link {
+    text-decoration: none;
+    color: #9a9a9a;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .home-team-name, .away-team-name {
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 880px) {
+    .home-team-name, .away-team-name {
+        display: none;
+    }
+    .home-team-logo, .away-team-logo, .last-match-result {
+        width: 33%;
+    }
+    .see-all-matches-link {
+        font-size: 0.7rem;
+    }
+}

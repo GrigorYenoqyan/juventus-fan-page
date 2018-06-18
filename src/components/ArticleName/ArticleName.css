@@ -1,0 +1,19 @@
+.white-article-name {
+    color:white;
+}
+
+.black-article-name {
+    color:black;
+}
+
+.white-article-name, .black-article-name {
+    word-wrap: break-word;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 600px) {
+    .black-article-name, .white-article-name {
+        font-size: 1rem;
+    }
+}
