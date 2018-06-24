@@ -27,7 +27,7 @@ const Routes = () => {
             <Route path='/stadium' component={Stadium} />
             <Route path='/history/:date' render={(props) => {
                 const data = historyData.find((el) => el.date === props.match.params.date);
-                return (<ArticlePage data={data} />)
+                return <ArticlePage data={data} />;
             }
             } />
             <Route path='/' component={Footer} />
